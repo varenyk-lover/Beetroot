@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Beetroot-hometasks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-1/script/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-1/style/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-1/index.html" afterDir="false" />
     </list>
@@ -54,7 +61,7 @@
       <updated>1650287929723</updated>
       <workItem from="1650287931536" duration="4038000" />
       <workItem from="1650294362190" duration="203000" />
-      <workItem from="1650294581137" duration="3391000" />
+      <workItem from="1650294581137" duration="3838000" />
     </task>
     <servers />
   </component>
