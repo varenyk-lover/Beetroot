@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-2/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="27yMZSH2tiGrZZ4tJygyFsYg7A1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/hanna/Documents/IT",
+    "last_opened_file_path": "/home/hanna/Documents/IT/Beetroot-hometasks",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -60,6 +62,7 @@
       <workItem from="1650294581137" duration="7561000" />
       <workItem from="1650306453505" duration="3000" />
       <workItem from="1650365646114" duration="2357000" />
+      <workItem from="1650638842895" duration="244000" />
     </task>
     <servers />
   </component>
