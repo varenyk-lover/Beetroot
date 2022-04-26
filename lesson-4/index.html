@@ -3,78 +3,91 @@
 <head>
     <meta charset="utf-8">
     <title>Lesson 4</title>
+    <link href="styles/index.css" rel="stylesheet">
 </head>
 
 <body>
-<header>
-    <nav>
-        <a href="#about">About me</a>
-        <a href="#register">Register form</a>
-        <a href="#footer">Contacts</a>
-    </nav>
-</header>
-<main id="about">
-    <h1>About me</h1>
+<div clas="">
+    <header>
+        <nav class="navigation">
+            <a href="#about">About me</a>
+            <a href="#register">Register form</a>
+            <a href="#footer">Contacts</a>
+        </nav>
+    </header>
+    <main id="about">
+        <h1>About me</h1>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid aperiam dicta, dolorem doloribus fuga
-        hic labore modi porro quas rem, soluta ullam veniam? Adipisci assumenda commodi corporis dignissimos dolore
-        eaque eos error in, ipsum, mollitia non odit perspiciatis quaerat qui quo tenetur unde. Ad aliquam amet, cumque
-        distinctio dolore dolores dolorum eligendi enim eveniet iure labore minima molestiae, nam neque obcaecati
-        officia perferendis quasi, quidem repellat repellendus sed similique sint tempore tenetur ut vero voluptatibus
-        voluptatum. Deleniti natus, reiciendis! Cum error ratione totam. Architecto atque debitis dignissimos, ipsum,
-        nisi obcaecati perspiciatis porro possimus praesentium similique soluta voluptates? Nobis, reprehenderit?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid aperiam dicta, dolorem doloribus
+            fuga
+            hic labore modi porro quas rem, soluta ullam veniam? Adipisci assumenda commodi corporis dignissimos dolore
+            eaque eos error in, ipsum, mollitia non odit perspiciatis quaerat qui quo tenetur unde. Ad aliquam amet,
+            cumque
+            distinctio dolore dolores dolorum eligendi enim eveniet iure labore minima molestiae, nam neque obcaecati
+            officia perferendis quasi, quidem repellat repellendus sed similique sint tempore tenetur ut vero
+            voluptatibus
+            voluptatum. Deleniti natus, reiciendis! Cum error ratione totam. Architecto atque debitis dignissimos,
+            ipsum,
+            nisi obcaecati perspiciatis porro possimus praesentium similique soluta voluptates? Nobis,
+            reprehenderit?</p>
 
 
-    <section id="register">
-        <h2>Register form</h2>
-        <form>
-            <label for="name">Name</label>
-            <input id="name" name="firstName" placeholder="Enter first name" type="text">
-            <br>
-            <br>
-            <label for="gender">Gender</label>
-            <select id="gender" name="gender">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
-            </select>
-            <br>
-            <br>
-            <label for="age">Age</label>
-            <input id="age" max="130" min="18" name="age" type="number">
-            <br>
-            <br>
-            <label for="birthday">Birthday</label>
-            <input id="birthday" max="2004-12-31" min="1892-01-01" name="birthday" type="date">
-            <p>Citizenship:</p>
-            <input id="ukrainian" name="citizenship" type="radio" value="Ukrainian">
-            <label for="ukrainian">Ukrainian</label><br>
-            <input id="other" name="citizenship" type="radio" value="Other">
-            <label for="other">Other</label>
-            <br>
-            <br>
-            <input name="submit" type="submit" value="Register">
-            <input name="reset" type="reset" value="Discard changes">
-        </form>
-    </section>
-</main>
+        <section id="register">
+            <h2>Register form</h2>
+            <form>
+                <label class="form-label" for="name">Name</label>
+                <br>
+                <input class="input-labal" id="name" name="firstName" placeholder="Enter first name" type="text">
+                <br>
+                <br>
+                <label class="form-label" for="gender">Gender</label>
+                <br>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <br>
+                <label class="form-label" for="age">Age</label>
+                <br>
+                <input class="input-labal" id="age" max="130" min="18" name="age" type="number">
+                <br>
+                <br>
+                <label class="form-label" for="birthday">Birthday</label><br>
+                <input id="birthday" max="2004-12-31" min="1892-01-01" name="birthday" type="date">
 
-<footer id="footer">
-    <h2>Contacts</h2>
-    <a href="mailto:hanna.horbova@gmail.com">
-        <img alt="Envelope icon"
-             height="50"
-             src="./assets/images/envelope.svg">
-    </a>
+                <p>Citizenship:</p>
+                <input id="ukrainian" name="citizenship" type="radio" value="Ukrainian">
+                <label for="ukrainian">Ukrainian</label><br>
+                <input id="other" name="citizenship" type="radio" value="Other">
+                <label for="other">Other</label>
 
-    <br>
-    <a href="tel:+380634378025">
-        <img alt="Telephone icon"
-             height="50"
-             src="./assets/images/phone.svg"
-             width="50">
-    </a>
-</footer>
+                <br>
+                <br>
+                <button class="form-button" name="submit" type="submit">Register</button>
+                <button class="form-button" name="reset" type="reset">Discard changes</button>
+            </form>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <h2>Contacts</h2>
+        <a href="mailto:hanna.horbova@gmail.com">
+            <img alt="Envelope icon"
+                 height="50"
+                 src="./assets/images/envelope.svg">
+        </a>
+
+        <br>
+        <a href="tel:+380634378025">
+            <img alt="Telephone icon"
+                 height="50"
+                 src="./assets/images/phone.svg"
+                 width="50">
+        </a>
+    </footer>
+</div>
 </body>
 
 </html>

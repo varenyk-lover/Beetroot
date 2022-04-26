@@ -1,0 +1,46 @@
+.form-label {
+    color: indigo;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.input-labal {
+    width: 200px;
+    height: 40px;
+    padding: 0 0 0 15px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+.form-button {
+    width: 120px;
+    height: 30px;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: darkblue;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:link {
+    color: deeppink;
+}
+
+a:visited {
+    color: indigo;
+}
+
+.navigation {
+    text-align: center;
+    font-size: 20px;
+}

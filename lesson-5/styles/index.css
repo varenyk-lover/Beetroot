@@ -1,0 +1,114 @@
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.section-1 {
+    background-color: rgb(13, 2, 33);
+}
+
+.section-2 {
+    background-color: rgb(15, 8, 75);
+}
+
+.section-3 {
+    background-color: rgb(38, 64, 139);
+}
+
+.section-4 {
+    background-color: rgb(166, 207, 213);
+}
+
+.section-5 {
+    background-color: rgb(194, 231, 217);
+}
+
+hr {
+    margin: 0;
+}
+
+.light-header {
+    color: white;
+}
+
+.dark-header {
+    color: rgb(13, 2, 33);
+}
+
+h1 {
+    font-family: "Droid Sans Mono", serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: "Droid Sans Mono", serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: "Droid Sans Mono", serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+h1 + img {
+    height: 533px;
+    width: 800px;
+    display: block;
+    margin: 50px auto;
+    border: 10px solid white;
+    border-radius: 20px 20px 20px 20px;
+    align-content: center;
+}
+
+.text {
+    font-family: "Droid Sans Mono", serif;
+    margin-left: 50px;
+    line-height: 20px;
+}
+
+h3 + p {
+    color: white;
+}
+
+ol, ul {
+    list-style: square;
+    color: rgb(13, 2, 33);
+}
+
+.icon {
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Droid Sans Mono", serif;
+    margin-left: 5px;
+    line-height: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: indigo;
+}
+
