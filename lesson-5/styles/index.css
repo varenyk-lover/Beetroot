@@ -35,6 +35,7 @@ h1 {
     font-weight: bold;
     text-align: center;
     font-size: 50px;
+    margin: 0;
 }
 
 h2 {
@@ -52,14 +53,18 @@ h3 {
 }
 
 
-h1 + img {
+.section-1 img {
     height: 533px;
     width: 800px;
     display: block;
-    margin: 50px auto;
+    margin: auto;
     border: 10px solid white;
     border-radius: 20px 20px 20px 20px;
     align-content: center;
+}
+
+.block-photo {
+    padding: 50px;
 }
 
 .text {

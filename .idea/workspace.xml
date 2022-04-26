@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-5/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson-5/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-5/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +72,7 @@
       <workItem from="1650703230263" duration="3000" />
       <workItem from="1650708631045" duration="5000" />
       <workItem from="1650708730836" duration="3559000" />
-      <workItem from="1650971200979" duration="13208000" />
+      <workItem from="1650971200979" duration="15094000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>
@@ -107,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650985311468</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="deleted some elements that doesn`t work">
+      <created>1650985547630</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650985547630</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +128,8 @@
     <MESSAGE value="added lesson 5" />
     <MESSAGE value="added  link on lesson 5" />
     <MESSAGE value="added main photo" />
-    <option name="LAST_COMMIT_MESSAGE" value="added main photo" />
+    <MESSAGE value="deleted some elements that doesn`t work" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted some elements that doesn`t work" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
