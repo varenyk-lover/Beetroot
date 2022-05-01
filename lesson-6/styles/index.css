@@ -1,0 +1,145 @@
+h1, h2, h3 {
+    margin: 0;
+    color: #FF8984;
+}
+
+body {
+    margin: 0;
+    background-color: #3B3F45;
+    font-family: \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+}
+
+.top-container {
+    height: 82px;
+    width: 100%;
+    background-color: #4A4F56;
+    top: 0;
+}
+
+.text-container {
+    text-align: center;
+    margin: 0;
+    padding: 19px 0 12px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.shopping-list {
+    height: 270px;
+    width: 534px;
+    margin: 20px auto 45px auto;
+}
+
+.shopping-list-item {
+    display: block;
+    padding: 11px 190px 13px 12px;
+    background-color: #88839E;
+}
+
+.shopping-list-item:nth-child(even) {
+    background-color: #7A7593;
+}
+
+.shopping-list-item:hover {
+    background-color: #625E77;
+    border-top: 3px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+}
+
+.shopping-list-item:active {
+    background-color: #FF8984;
+}
+
+
+/*CUSTOM CHECKBOX*/
+.checkbox {
+    display: none;
+}
+
+.fakebox {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+.fakebox::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    opacity: 0;
+}
+
+.checkbox:checked + .fakebox::before {
+    opacity: 1;
+}
+
+/*НЕ ДІЄ. ЧОМУ?*/
+.fakebox:checked {
+    text-decoration: line-through;
+}
+
+
+.big-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+.little-text {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    padding: 0 0 0 3px;
+}
+
+.little-text::before {
+    content: "(";
+    margin-left: 3px;
+}
+
+.little-text::after {
+    content: ")";
+}
+
+
+.bottom-container {
+    width: 534px;
+    height: 45px;
+    background-color: #4A4F56;
+    position: absolute;
+    top: 417px;
+    left: 50%;
+    margin-right: -50%;
+    margin-top: 45px;
+    transform: translate(-50%, -50%)
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    padding: 12px 0;
+}
