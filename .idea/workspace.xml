@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson-6/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-6/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-6/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-6/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +77,7 @@
       <workItem from="1651162004502" duration="4000" />
       <workItem from="1651167393339" duration="611000" />
       <workItem from="1651334711412" duration="17724000" />
-      <workItem from="1651414420466" duration="9150000" />
+      <workItem from="1651414420466" duration="12766000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>
@@ -145,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650987850993</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new lesson">
+      <created>1651423752740</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1651423752740</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +165,8 @@
     <MESSAGE value="fixed problems with margin and padding" />
     <MESSAGE value="fixed all" />
     <MESSAGE value="fixed margin" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed margin" />
+    <MESSAGE value="new lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="new lesson" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
