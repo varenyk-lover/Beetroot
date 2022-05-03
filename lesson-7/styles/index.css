@@ -1,0 +1,65 @@
+h1, h2, a, body, main {
+    margin: 0;
+}
+
+/*html {*/
+/*    box-sizing: border-box;*/
+/*    width: 100%;*/
+/*}*/
+
+
+body {
+    padding-top: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: "Open Sans";
+    width: 100%;
+}
+
+header {
+    width: 1840px;
+    height: 55px;
+    margin: 0;
+    position: relative;
+    box-shadow: 0 5px 5px -5px #333;
+}
+
+ul {
+    display: inline-block;
+}
+
+.eng-icon {
+    position: absolute;
+    top: 16px;
+    bottom: 16px;
+    width: 41px;
+    height: 23px;
+}
+
+.title {
+    position: absolute;
+    top: 16px;
+    bottom: 16px;
+    left: 83px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 23px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #000000;
+}
+
+.logo-icon {
+    position: absolute;
+    left: 1597px;
+    top: 2px;
+    bottom: 4px;
+    width: 243px;
+    height: 55px;
+}
+
+.main-wraper {
+    position: absolute;
+    top: 121px;
+    border: 1px solid black;
+}
