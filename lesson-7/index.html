@@ -11,43 +11,46 @@
 <body>
 
 <header>
-    <!--    ДОДАЙ SHADOW лінію внизу, щоб відділити від іншого контпенту та inline block-->
-    <ul>
-        <li class="eng-icon"><img src="images/eng.png" alt="enlish language icon"></li>
+    <ul class="header-list">
+        <li class="eng-icon"><img alt="enlish language icon" src="images/eng.png"></li>
         <li class="title">Documetation / <a href="pages/who-using-page.html">Who's using</a></li>
-        <li class="logo-icon"><img src="images/company-logo-black.png" alt="black logo of Konstrukt comnany"></li>
+        <li class="logo-icon"><img alt="black logo of Konstrukt comnany" src="images/company-logo-black.png"></li>
     </ul>
 </header>
 
-<!--ЗРОБИ З ДІВ ІНЛАЙН БЛОК, ЩОБ НАВ І МЕЙН ЙШЛИ В РЯД ПОРУЧ-->
+
 <div class="main-wraper">
+    <img alt="grey gear" class="background" src="images/background.png">
     <aside class="nav-aside-wraper">
         <!--        зроби ще sticky-->
         <nav>
-            <ul>
-                <li><a href="#introduction">Introduction </a></li>
-                <li><a href="#core">Core Components</a></li>
-                <li><a href="#react">React Fundamentals</a></li>
-                <li><a href="#handling">Handling Text Input</a></li>
-            </ul>
+            <ol class="navigation">
+                <li><a href="#introduction">INTRODUCTION</a></li>
+                <li><a href="#core">CORE COMPONENTS</a></li>
+                <li><a href="#react">REACT FUNDAMENTALS</a></li>
+                <li><a href="#handling">HANDLING TEXT INPUT</a></li>
+            </ol>
         </nav>
     </aside>
 
     <!-- Тут основний вміст -->
     <main class="article-wraper">
 
-        <!-- Головна стаття - зроби скрол -->
         <article>
+            <img alt="black line" src="images/line.png">
+            <!--Лінії трохи криві, бо в них на макеті transform: rotate(0.42deg); стоїть-->
             <section>
-                <h2 id="introduction">Introduction</h2>
+                <h2 id="introduction">INTRODUCTION</h2>
 
                 <p>Welcome to the very start of your React Native journey! If you're looking for environment setup
-                    instructions, they've moved to their own section. Continue reading for an introduction to the
+                    instructions, they've moved to <a href="#">their own section</a>. Continue reading for an
+                    introduction to the
                     documentation, Native Components, React, and more!</p>
             </section>
 
+            <img alt="black line" src="images/line.png">
             <section>
-                <h2 id="core">Core Components</h2>
+                <h2 id="core">CORE COMPONENTS</h2>
 
                 <p>React Native is an open source framework for building Android and iOS applications using React and
                     the app platform’s native capabilities. With React Native, you use JavaScript to access your
@@ -56,34 +59,30 @@
                     But first, let’s cover how components work in React Native.</p>
             </section>
 
+            <img alt="black line" src="images/line.png">
             <section>
-                <h2 id="react">React Fundamentals</h2>
-
+                <h2 id="react">REACT FUNDAMENTALS</h2>
                 <p>React Native runs on React, a popular open source library for building user interfaces with
                     JavaScript. To make the most of React Native, it helps to understand React itself. This section can
                     get you started or can serve as a refresher course.</p>
-                <p>We’re going to cover the core concepts behind React:
-                    <br>
-                    <!--                    Задай всім бр параметри відступи ніби це інтервал-->
-                    + components. The rest of this introduction to React uses cats in its examples: friendly,
-                    approachable creatures that need names and a cafe to work in.
-                    <br>
-                    + JSX. React and React Native use JSX, a syntax that lets you write elements inside JavaScript like
-                    so: &lt;Text&gt;Hello, I am your cat!&lt;/Text&gt;. The React docs have a comprehensive guide to JSX
+                <p>We’re going to cover the core concepts behind React:</p>
+                <p>+ components. The rest of this introduction to React uses cats in its examples: friendly,
+                    approachable creatures that need names and a cafe to work in.</p>
+                <p>+ JSX. React and React Native use JSX, a syntax that lets you write elements inside JavaScript like
+                    so: <code>&ltText&gtHello, I am your cat!&lt/Text&gt</code>. The React docs have a comprehensive
+                    guide to JSX
                     you can refer to learn even more. Because JSX is JavaScript, you can use variables inside it.
-                    Here you are declaring a name for the cat, name, and embedding it with curly braces inside
-                    &lt;Text&gt;.
-                    <br>
-                    + props. Props is short for “properties”.
-                    <br>
-                    + state. While you can think of props as arguments you use to configure how components render, state
+                    Here you are declaring a name for the cat, <code>name</code>, and embedding it with curly braces
+                    inside <code>&ltText&gt</code>.</p>
+                <p>+ props. Props is short for "properties".</p>
+                <p>+ state. While you can think of props as arguments you use to configure how components render, state
                     is like a component’s personal data storage. State is useful for handling data that changes over
-                    time or that comes from user interaction. State gives your components memory!
-                </p>
+                    time or that comes from user interaction. State gives your components memory!</p>
             </section>
 
+            <img alt="black line" src="images/line.png">
             <section>
-                <h2 id="handling">Handling Text Input</h2>
+                <h2 id="handling">HANDLING TEXT INPUT</h2>
 
                 <p>TextInput is a Core Component that allows the user to enter text. It has an onChangeText prop that
                     takes a function to be called every time the text changed, and an onSubmitEditing prop that takes a

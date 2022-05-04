@@ -10,42 +10,35 @@
 <body>
 
 <header>
-    <!--    ДОДАЙ SHADOW лінію внизу, щоб відділити від іншого контпенту та inline block-->
-    <span>
-            <img src="../images/eng.png">
-        </span>
-
-    <h1>
-        <a href="../index.html">Documetation</a> /
-        <span>Who's using</span>
-    </h1>
-    <span>
-           <img src="../images/company-logo-black.png">
-      </span>
+    <ul class="header-list">
+        <li class="eng-icon"><img alt="enlish language icon" src="../images/eng.png"></li>
+        <li class="title"><a href="../index.html">Documetation</a> / Who's using</li>
+        <li class="logo-icon"><img alt="black logo of Konstrukt comnany" src="../images/company-logo-black.png"></li>
+    </ul>
 </header>
 
+<!--/-->
+<main class="main-wraper">
+    <h1>
+        <img alt="black line" src="../images/line.png"> Who's using?
+    </h1>
 
-<!-- Тут основний вміст - -->
-<main class="cards-wraper">
-    <h2>Who's using?</h2>
-    <!--        Зроби бордер рамку-->
-    <div class="first-line">
+    <div class="container-1">
         <!--    потік карток inline-block-->
-        <div class="facebook-card"></div>
-        <div class="instagram-card"></div>
-        <div class="shopify-card"></div>
-        <div class="skype-card"></div>
+        <div class="facebook card"></div>
+        <div class="instagram card"></div>
+        <div class="shopify card"></div>
+        <div class="skype card"></div>
     </div>
-    <!--        Зроби бордер рамку-->
-    <div class="second-line">
+
+    <div class="container-2">
         <!--    потік карток inline-block-->
-        <div class="pinterest-card"></div>
-        <div class="wix-card"></div>
-        <div class="salesforce-card"></div>
-        <div class="soundcloud"></div>
+        <div class="pinterest card"></div>
+        <div class="wix card"></div>
+        <div class="salesforce card"></div>
+        <div class="soundcloud card"></div>
     </div>
 </main>
-
 
 </body>
 </html>
