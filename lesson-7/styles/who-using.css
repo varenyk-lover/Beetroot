@@ -2,37 +2,16 @@ h1, h2, a, body, div {
     margin: 0;
 }
 
-/*html {*/
-/*    box-sizing: border-box;*/
-/*    width: 100%;*/
-/*}*/
-
-/*html {*/
-/*    width: auto;*/
-/*}*/
-
 body {
     font-family: "Open Sans";
-    /*position: fixed;*/
-    /*padding-top: 16px;*/
-    /*padding-left: 40px;*/
-    /*padding-right: 40px;*/
-    /*width: 1920px;*/
-    /*box-sizing: border-box;*/
-    /*width: 1920px;*/
-    /*box-sizing: border-box;*/
 }
 
 header {
     width: 1880px;
     height: 55px;
-    /*margin: 0;*/
     position: relative;
     box-shadow: 0 5px 5px -5px #333;
     margin: 16px 40px 0 40px;
-    /*margin-left: 40px;*/
-    /*margin-right: 40px;*/
-    /*border: 1px solid black;*/
 }
 
 .eng-icon {
@@ -51,8 +30,6 @@ header {
     font-size: 16px;
     font-weight: 400;
     height: 23px;
-    letter-spacing: 0;
-    text-align: left;
     color: #000000;
 }
 
@@ -75,28 +52,12 @@ a:hover {
     height: 55px;
 }
 
-
-/*main {*/
-/*    position: absolute;*/
-/*    top: 121px;*/
-/*    border: 1px solid black;*/
-/*    width: 1880px;*/
-/*    height: 740px;*/
-/*    margin: 0 40px 0 40px;*/
-/*}*/
-
 .main-wraper {
     position: absolute;
     top: 144px;
-    border: 1px solid black;
     width: 1880px;
     height: 650px;
     padding: 0 40px 40px 40px;
-    /*margin: 0 40px 0 40px;*/
-    /*margin-left: 40px;*/
-    /*margin-right: 40px;*/
-    /*left: 40px;*/
-    /*right: 40px;*/
 }
 
 .container-1 {
@@ -110,7 +71,6 @@ a:hover {
 .container-2 {
     height: 310px;
     border-bottom: 1px solid #BFBFBF;
-    /*border-top: 1px solid #BFBFBF;*/
     margin: 0 10px 0 10px;
 }
 
@@ -122,7 +82,6 @@ h1 {
     display: inline-block;
     width: 440px;
     height: 280px;
-    /*background-color: #E6E6E6;*/
     border-radius: 15px;
     margin: 15px 10px 15px 10px;
 }
@@ -137,10 +96,9 @@ h1 {
     transition: ease-in-out 0.5s;
 }
 
-/*      ТУТ ЧОГОСЬ НЕ ЗНАХОДИТЬ ЛОГО ІНСТИ*/
+/*      ТУТ ТРОХИ ГІРША ЯКІСТЬ, БО КАРТИНКУ МЕНІ КИДАВ МІША))ТАМ В МАКЕТІ ПРОБЛЕМА З ШАРАМИ*/
 .instagram {
-    background-image: url("../images/inst");
-    background-color: background: #E6E6E6;
+    background-image: url("../images/instagram-light.png");
 }
 
 .instagram:hover {
@@ -150,148 +108,61 @@ h1 {
 }
 
 .shopify {
-    background-image: url("../images/facebook-light.png");
+    background-image: url("../images/shopify-light.png");
 }
 
 .shopify:hover {
-    background-image: url("../images/facebook-black.png");
+    background-image: url("../images/shopify-black.png");
     transform: rotateX(360deg);
     transition: ease-in-out 0.5s;
 }
 
 .skype {
-    background-image: url("../images/facebook-light.png");
+    background-image: url("../images/skype-light.png");
 }
 
 .skype:hover {
-    background-image: url("../images/facebook-black.png");
+    background-image: url("../images/skype-black.png");
     transform: rotateX(360deg);
     transition: ease-in-out 0.5s;
 }
 
 .pinterest {
-    background-image: url("../images/facebook-light.png");
+    background-image: url("../images/pinterest-light.png");
 }
 
 .pinterest:hover {
-    background-image: url("../images/facebook-black.png");
+    background-image: url("../images/pinterest-black.png");
     transform: rotateX(360deg);
     transition: ease-in-out 0.5s;
 }
 
 .wix {
-    background-image: url("../images/facebook-light.png");
+    background-image: url("../images/wix-light.png");
 }
 
 .wix:hover {
-    background-image: url("../images/facebook-black.png");
+    background-image: url("../images/wix-black.png");
     transform: rotateX(360deg);
     transition: ease-in-out 0.5s;
 }
 
 .salesforce {
-    background-image: url("../images/facebook-light.png");
+    background-image: url("../images/salesforce-light.png");
 }
 
 .salesforce:hover {
-    background-image: url("../images/facebook-black.png");
+    background-image: url("../images/salesforce-black.png");
     transform: rotateX(360deg);
     transition: ease-in-out 0.5s;
 }
 
 .soundcloud {
-    background-image: url("../images/facebook-light.png");
+    background-image: url("../images/soundcloud-light.png");
 }
 
 .soundcloud:hover {
-    background-image: url("../images/facebook-black.png");
+    background-image: url("../images/soundcloud-black.png");
     transform: rotateX(360deg);
     transition: ease-in-out 0.5s;
 }
-
-
-/*.nav-aside-wraper {*/
-/*    width: 1880px;*/
-/*    height: 740px;*/
-/*    border: 1px solid black;*/
-/*    margin-left: 40px;*/
-/*}*/
-
-
-/*nav li, h2 {*/
-/*    line-height: 40px;*/
-/*    font-size: 32px;*/
-/*    font-weight: 900;*/
-/*}*/
-
-/*nav li {*/
-/*    border-bottom: 1px solid #BFBFBF;*/
-/*    margin-bottom: 93px;*/
-/*    line-height: 40px;*/
-/*    font-size: 32px;*/
-/*    font-weight: 900;*/
-/*    padding-bottom: 5px;*/
-/*}*/
-
-/*ol {*/
-/*    list-style: none;*/
-/*    counter-reset: my-awesome-counter;*/
-/*}*/
-
-/*ol li {*/
-/*    counter-increment: my-counter;*/
-/*}*/
-
-/*ol li::before {*/
-/*    content: counter(my-counter);*/
-/*    font-style: normal;*/
-/*    font-weight: 400;*/
-/*    font-size: 16px;*/
-/*    line-height: 25px;*/
-/*    color: #000000;*/
-/*    margin-right: 20px;*/
-/*}*/
-
-
-/*.article-wraper {*/
-/*    width: 1160px;*/
-/*    height: 740px;*/
-/*    overflow: auto;*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    right: 0;*/
-/*    border: 1px solid black;*/
-/*    margin-right: 40px;*/
-/*}*/
-
-/*.article-wraper::-webkit-scrollbar {*/
-/*    width: 0;*/
-/*}*/
-
-/*p {*/
-/*    font-size: 20px;*/
-/*    font-weight: 400;*/
-/*    letter-spacing: 0;*/
-/*    line-height: 28px;*/
-/*    text-align: left;*/
-/*    color: #000000;*/
-/*    padding: 10px 0 20px 0;*/
-/*}*/
-
-/*section {*/
-/*    padding: 30px 0 28px;*/
-/*    !*margin-top: 20px;*!*/
-/*}*/
-
-
-/*code {*/
-/*    background-color: beige;*/
-/*}*/
-
-/*.background {*/
-/*    position: absolute;*/
-/*    bottom: 0;*/
-/*    right: 0;*/
-/*    !*margin: 0;*!*/
-/*}*/
-
