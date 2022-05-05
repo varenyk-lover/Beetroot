@@ -4,21 +4,8 @@
     <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson-5/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-5/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-7/images/Instagram-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-7/images/Instagram-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-7/images/Pinterest-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-7/images/Salesforce-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-7/images/Salesforce-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-7/images/Shopify-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-7/images/Skype-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-7/images/Skype-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-7/images/Soundcloud-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-7/images/Soundcloud-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-7/images/Wix-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-7/images/Wix-light.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson-7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-7/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-7/pages/who-using-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-7/pages/who-using-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-7/styles/who-using.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-7/styles/who-using.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-7/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-7/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +89,7 @@
       <workItem from="1651584701043" duration="27189000" />
       <workItem from="1651681205632" duration="10642000" />
       <workItem from="1651738419954" duration="4251000" />
-      <workItem from="1651743715472" duration="185000" />
+      <workItem from="1651743715472" duration="1903000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>
@@ -202,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651693381982</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="lesson 7 - 2nd changes">
+      <created>1651743986280</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1651743986280</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +217,8 @@
     <MESSAGE value="lesson 7 - first commit" />
     <MESSAGE value="lesson 7 - added photos" />
     <MESSAGE value="lesson 7 - new changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 7 - new changes" />
+    <MESSAGE value="lesson 7 - 2nd changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 7 - 2nd changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
