@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="">
+    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="lesson 7 - 3nd changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson-5/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-5/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-7/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-7/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-7/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-7/styles/who-using.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-7/styles/who-using.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <workItem from="1651584701043" duration="27189000" />
       <workItem from="1651681205632" duration="10642000" />
       <workItem from="1651738419954" duration="4251000" />
-      <workItem from="1651743715472" duration="1903000" />
+      <workItem from="1651743715472" duration="2724000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>
@@ -196,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651743986280</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="lesson 7 - 3nd changes">
+      <created>1651745776732</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1651745776732</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +224,8 @@
     <MESSAGE value="lesson 7 - added photos" />
     <MESSAGE value="lesson 7 - new changes" />
     <MESSAGE value="lesson 7 - 2nd changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 7 - 2nd changes" />
+    <MESSAGE value="lesson 7 - 3nd changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 7 - 3nd changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

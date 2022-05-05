@@ -38,11 +38,6 @@ a {
     color: black;
 }
 
-a:hover {
-    text-decoration: underline;
-    text-decoration-color: black;
-}
-
 .logo-icon {
     position: absolute;
     left: 1597px;
