@@ -267,24 +267,19 @@ h4 {
     padding-top: 49px;
 }
 
+section ul {
+    width: 450px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
 section ul li {
-    width: 430px;
-    /*height: 52px;*/
+    background: url("../images/tick-icon.svg") no-repeat;
     line-height: 26px;
     font-weight: 500;
-    margin: 0 0 30px 0;
-    list-style: none;
-    /*padding-left: 30px;*/
-}
-
-/*КАСТОМІЙ ЛІСТ ІТЕМ*/
-ul {
-    padding: 0;
-}
-
-section ul li::before {
-    content: url("../images/tick-icon.svg");
-    margin-right: 30px;
+    padding: 0 0 0 65px;
+    margin-bottom: 30px;
 }
 
 
