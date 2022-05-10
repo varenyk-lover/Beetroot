@@ -1,0 +1,205 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/gilroy-bold.ttf");
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/gilroy-medium.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding-bottom: 123px;
+}
+
+body, h1, h2, h3, button, header a {
+    margin: 0;
+    font-family: "Gilroy-Bold", sans-serif;
+}
+
+main, footer {
+    text-align: center;
+}
+
+p, img + a {
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+    color: #070707;
+}
+
+
+header {
+    padding: 0 250px;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 90px;
+
+
+}
+
+.header-container {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #828282;
+}
+
+header a {
+    text-decoration: none;
+    color: #828282;
+}
+
+header a:hover {
+    color: #070707;
+}
+
+/*SECTION 1 Home*/
+main {
+    padding: 0 250px;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.home {
+    padding: 40px 0 105px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 60px
+}
+
+.main-content-item p {
+    text-align: left;
+}
+
+.main-content {
+    padding-bottom: 30px;
+}
+
+/*SECTION 2 About me*/
+.gray-section {
+    background-color: #F6F6F6;
+}
+
+h2 {
+    font-size: 34px;
+    line-height: 42px;
+    padding-top: 100px;
+}
+
+.about-content {
+    width: 485px;
+    height: 220px;
+    flex-flow: column;
+    margin: 18px 0 107px;
+}
+
+/*SECTION 3 Skills*/
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-skills p {
+    padding: 70px 0 85px;
+}
+
+.skills-card {
+    width: 165px;
+    height: 205px;
+    /*display: flex;*/
+    /*flex-flow: column;*/
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+}
+
+
+.visual-editor-icon {
+    width: 90px;
+    height: 90px;
+}
+
+h3 {
+    color: #828282;
+    font-size: 14px;
+    line-height: 17px;
+    width: 80px;
+}
+
+.card-container {
+    padding-bottom: 110px;
+}
+
+/*SECTION 4 Portfolio */
+img + a {
+    padding-bottom: 55px;
+}
+
+.photo {
+    padding: 45px 0 45px;
+}
+
+/*FOOTER Contacts*/
+footer {
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*padding-top: 115px;*/
+    padding: 115px 250px 0;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.flex-column {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts-content-container {
+    width: 345px;
+    height: 340px;
+    /*display: flex;*/
+    /*flex-flow: column;*/
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+}
+
+.footer-title {
+    padding: 0;
+}
+
+.socialmedia-card {
+    width: 345px;
+    margin-top: 45px;
+}
+
+button {
+    width: 180px;
+    height: 42px;
+    color: #FFFFFF;
+    font-size: 18px;
+    background-color: #070707;
+    border-radius: 25px;
+    border: 1px solid #070707;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.socialmedia-description {
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
