@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson-9/images/3-stars.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-9/images/4-stars.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-9/images/aftereffects-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-9/images/behance-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-9/images/braun-web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-9/images/dribble-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-9/images/fashion-web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-9/images/figma-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-9/images/illustrator-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-9/images/insta-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-9/images/linkedin-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-9/images/photoshop-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-9/images/portrait.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-9/images/reebok-web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-9/images/ru-eng-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-9/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-9/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-9/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-9/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +96,7 @@
       <workItem from="1652175475428" duration="17889000" />
       <workItem from="1652198716218" duration="4000" />
       <workItem from="1652201754785" duration="119000" />
-      <workItem from="1652203153200" duration="2825000" />
+      <workItem from="1652203153200" duration="3487000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>
@@ -262,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652198506323</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="lesson 9 - final commit">
+      <created>1652275270026</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1652275270026</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +280,8 @@
     <MESSAGE value="lesson 8 - almost done commit" />
     <MESSAGE value="lesson 8 - custom list items" />
     <MESSAGE value="lesson 9 - first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 9 - first commit" />
+    <MESSAGE value="lesson 9 - final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 9 - final commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
