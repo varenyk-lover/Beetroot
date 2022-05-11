@@ -116,10 +116,6 @@ h2 {
 .skills-card {
     width: 165px;
     height: 205px;
-    /*display: flex;*/
-    /*flex-flow: column;*/
-    /*align-items: center;*/
-    /*justify-content: space-between;*/
 }
 
 
@@ -150,9 +146,6 @@ img + a {
 
 /*FOOTER Contacts*/
 footer {
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    /*padding-top: 115px;*/
     padding: 115px 250px 0;
     margin: 0 auto;
     max-width: 1440px;
@@ -168,10 +161,6 @@ footer {
 .contacts-content-container {
     width: 345px;
     height: 340px;
-    /*display: flex;*/
-    /*flex-flow: column;*/
-    /*align-items: center;*/
-    /*justify-content: space-between;*/
 }
 
 .footer-title {
