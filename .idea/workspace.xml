@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson-10/assets/images/logo-icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-8/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-8/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/application-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/application-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/dribble-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/dribble-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/fb-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/fb-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/freehand-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/freehand-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/github-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/github-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/insta-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/insta-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/logo-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/loudspeaker-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/loudspeaker-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/twitter-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/twitter-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-10/assets/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +105,11 @@
       <workItem from="1651907958560" duration="599000" />
       <workItem from="1651911015714" duration="200000" />
       <workItem from="1651913826022" duration="24273000" />
-      <workItem from="1652103162502" duration="4476000" />
+      <workItem from="1652103162502" duration="13217000" />
+      <workItem from="1652175475428" duration="17889000" />
+      <workItem from="1652198716218" duration="4000" />
+      <workItem from="1652201754785" duration="119000" />
+      <workItem from="1652203153200" duration="26128000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>
@@ -228,7 +244,42 @@
       <option name="project" value="LOCAL" />
       <updated>1652035668641</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="lesson 8 - custom list items">
+      <created>1652108338872</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1652108338872</updated>
+    </task>
+    <task id="LOCAL-00021" summary="lesson 9 - first commit">
+      <created>1652198506323</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1652198506323</updated>
+    </task>
+    <task id="LOCAL-00022" summary="lesson 9 - final commit">
+      <created>1652275270026</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1652275270026</updated>
+    </task>
+    <task id="LOCAL-00023" summary="added lesson 9 Denis website">
+      <created>1652275981765</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1652275981765</updated>
+    </task>
+    <task id="LOCAL-00024" summary="lesson 10 - init commit">
+      <created>1652290898427</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1652290898427</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +305,12 @@
     <MESSAGE value="lesson 7 - no underline &lt;a&gt; in 2nd page" />
     <MESSAGE value="lesson 8 - first commit" />
     <MESSAGE value="lesson 8 - almost done commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 8 - almost done commit" />
+    <MESSAGE value="lesson 8 - custom list items" />
+    <MESSAGE value="lesson 9 - first commit" />
+    <MESSAGE value="lesson 9 - final commit" />
+    <MESSAGE value="added lesson 9 Denis website" />
+    <MESSAGE value="lesson 10 - init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 10 - init commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
