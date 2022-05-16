@@ -2,20 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson-10/assets/images/logo-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/fonts/gilroy-bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/fonts/gilroy-medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/images/3-stars.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/images/4-stars.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/images/aftereffects-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/images/behance-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/images/braun-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/images/dribble-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/images/fashion-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/images/figma-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/images/illustrator-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/images/insta-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/images/linkedin-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/images/photoshop-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/images/portrait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/images/reebok-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/images/ru-eng-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/styles/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-11/styles/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/application-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/application-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/dribble-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/dribble-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/fb-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/fb-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/freehand-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/freehand-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/github-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/github-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/insta-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/insta-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/logo-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/loudspeaker-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/loudspeaker-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/twitter-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/twitter-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +36,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -56,11 +66,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/hanna/Documents/IT/Beetroot-hometasks&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -109,7 +119,10 @@
       <workItem from="1652175475428" duration="17889000" />
       <workItem from="1652198716218" duration="4000" />
       <workItem from="1652201754785" duration="119000" />
-      <workItem from="1652203153200" duration="26128000" />
+      <workItem from="1652203153200" duration="26182000" />
+      <workItem from="1652371850069" duration="658000" />
+      <workItem from="1652514904959" duration="2847000" />
+      <workItem from="1652693643147" duration="19722000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>
@@ -279,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652290898427</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="lesson 10 - final commit">
+      <created>1652354263142</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1652354263142</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +330,8 @@
     <MESSAGE value="lesson 9 - final commit" />
     <MESSAGE value="added lesson 9 Denis website" />
     <MESSAGE value="lesson 10 - init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 10 - init commit" />
+    <MESSAGE value="lesson 10 - final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 10 - final commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
