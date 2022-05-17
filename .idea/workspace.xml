@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson-11/fonts/gilroy-bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/fonts/gilroy-medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/images/3-stars.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/images/4-stars.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/images/aftereffects-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/images/behance-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/images/braun-web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/images/dribble-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/images/fashion-web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/images/figma-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/images/illustrator-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/images/insta-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/images/linkedin-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/images/photoshop-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/images/portrait.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/images/reebok-web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/images/ru-eng-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/styles/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/styles/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-11/styles/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-11/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-11/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-11/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-11/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-11/styles/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-11/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-11/styles/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +105,7 @@
       <workItem from="1652371850069" duration="658000" />
       <workItem from="1652514904959" duration="2847000" />
       <workItem from="1652693643147" duration="19722000" />
+      <workItem from="1652777595953" duration="9121000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>

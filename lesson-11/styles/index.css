@@ -36,17 +36,18 @@ header {
 }
 @media screen and (max-width: 1200px) {
   header {
-    padding: 0 80px;
+    padding: 0 120px;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
   header {
-    padding: 0 30px;
+    padding: 0 80px;
   }
 }
 @media screen and (max-width: 600px) {
   header {
     display: none;
+    padding: 0 30px;
   }
 }
 
@@ -73,7 +74,15 @@ header a:hover {
 }
 @media screen and (max-width: 600px) {
   .little-portrait {
-    display: block;
+    display: flex;
+    justify-content: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .little-portrait img {
+    width: 100%;
+    object-fit: contain;
   }
 }
 
@@ -89,10 +98,15 @@ header a:hover {
 }
 @media screen and (max-width: 1200px) {
   .white-section {
+    padding: 0 120px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .white-section {
     padding: 0 80px;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
   .white-section {
     padding: 0 30px;
   }
@@ -102,11 +116,22 @@ header a:hover {
   padding-top: 40px;
   padding-bottom: 105px;
 }
+@media screen and (max-width: 600px) {
+  .home-section {
+    padding-top: 65px;
+    padding-bottom: 83px;
+  }
+}
 
 h1 {
-  font-size: 48px;
-  line-height: 60px;
+  font-size: 47px;
+  line-height: 58px;
   text-align: left;
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    padding-bottom: 23px;
+  }
 }
 
 .main-content-item p {
@@ -115,7 +140,7 @@ h1 {
 }
 @media screen and (max-width: 600px) {
   .main-content-item p {
-    padding: 0;
+    padding: 0 0 37px;
   }
 }
 
@@ -127,6 +152,10 @@ h1 {
     display: flex;
     flex-flow: column;
     justify-content: left;
+    padding: 0;
+    background: url("../images/burger-menu-icon.svg");
+    background-repeat: no-repeat;
+    background-position: top 0 right 0;
   }
 }
 
@@ -138,7 +167,6 @@ h1 {
 
 .big-portrait img {
   width: 100%;
-  height: 388px;
   object-fit: contain;
 }
 
@@ -161,6 +189,21 @@ h1 {
 .gray-section {
   background-color: #F6F6F6;
 }
+@media screen and (max-width: 1200px) {
+  .gray-section {
+    padding: 0 120px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .gray-section {
+    padding: 0 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .gray-section {
+    padding: 0 30px;
+  }
+}
 
 h2 {
   font-size: 34px;
@@ -169,7 +212,7 @@ h2 {
 }
 @media screen and (max-width: 600px) {
   h2 {
-    padding-top: 80px;
+    padding-top: 82px;
   }
 }
 
@@ -182,12 +225,20 @@ h2 {
 @media screen and (max-width: 600px) {
   .about-content {
     width: 100%;
-    padding: 0 30px;
     margin: 30px 0 76px;
   }
 }
 
 /*SECTION 3 Skills*/
+.section-skills {
+  padding-bottom: 110px;
+}
+@media screen and (max-width: 600px) {
+  .section-skills {
+    padding-bottom: 100px;
+  }
+}
+
 .section-skills p {
   padding: 70px 0 85px;
 }
@@ -201,9 +252,9 @@ h2 {
   width: 165px;
   height: 205px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
   .skills-card {
-    padding-bottom: 80px;
+    margin-bottom: 80px;
   }
 }
 
@@ -217,16 +268,22 @@ h3 {
   font-size: 14px;
   line-height: 17px;
   width: 80px;
+  padding: 24px 0 40px;
 }
 
-.card-container {
-  padding-bottom: 110px;
-}
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
   .card-container {
     width: 50%;
     flex-wrap: wrap;
     margin: 0 auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .card-container {
+    width: 50%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
   }
 }
 
@@ -235,15 +292,6 @@ h3 {
 }
 
 /*SECTION 4 Portfolio */
-img + a {
-  padding-bottom: 55px;
-}
-@media screen and (max-width: 600px) {
-  img + a {
-    padding-bottom: 7px;
-  }
-}
-
 .photo {
   padding: 45px 0 45px;
 }
@@ -259,6 +307,24 @@ img + a {
   object-fit: contain;
 }
 
+img + a {
+  padding-bottom: 55px;
+}
+@media screen and (max-width: 600px) {
+  img + a {
+    padding-bottom: 14px;
+  }
+}
+
+.portfolio-content-container {
+  padding-bottom: 41px;
+}
+@media screen and (max-width: 600px) {
+  .portfolio-content-container {
+    padding-bottom: 67px;
+  }
+}
+
 /*FOOTER Contacts*/
 footer {
   padding: 0 250px 123px 250px;
@@ -267,17 +333,17 @@ footer {
 }
 @media screen and (max-width: 1200px) {
   footer {
-    padding: 0 80px 115px;
+    padding: 0 120px 115px;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
   footer {
-    padding: 0 50px 100px 50px;
+    padding: 0 80px 100px;
   }
 }
 @media screen and (max-width: 600px) {
   footer {
-    padding: 0 30px 90px 30px;
+    padding: 0 30px 90px;
   }
 }
 
@@ -299,17 +365,23 @@ footer {
 }
 
 footer h2 + p {
-  margin: 20px 0 30px;
+  padding: 20px 0 30px;
+}
+@media screen and (max-width: 600px) {
+  footer h2 + p {
+    padding: 27px 0 40px;
+  }
 }
 
 .socialmedia-card {
   width: 345px;
-  margin-top: 45px;
+  padding-top: 45px;
 }
 @media screen and (max-width: 600px) {
   .socialmedia-card {
     width: 100%;
     height: 100%;
+    padding-top: 60px;
   }
 }
 
@@ -322,6 +394,11 @@ button {
   border-radius: 25px;
   border: 1px solid #070707;
 }
+@media screen and (max-width: 600px) {
+  button {
+    width: 100%;
+  }
+}
 
 button:hover {
   cursor: pointer;
@@ -332,6 +409,18 @@ button:hover {
   font-size: 14px;
   line-height: 17px;
   color: #828282;
+  padding-top: 45px;
+}
+@media screen and (max-width: 992px) {
+  .socialmedia-description {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .socialmedia-description {
+    padding-top: 48px;
+    font-size: 18px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

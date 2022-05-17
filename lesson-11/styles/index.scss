@@ -12,10 +12,6 @@
   box-sizing: border-box;
 }
 
-//body {
-//  padding-bottom: 123px;
-//}
-
 body, h1, h2, h3, button, header a {
   margin: 0;
   font-family: "Gilroy-Bold", sans-serif;
@@ -33,8 +29,8 @@ p, img + a {
   color: #070707;
 }
 
-/*HEADER*/
 
+/*HEADER*/
 header {
   padding: 0 250px;
   margin: 0 auto;
@@ -42,15 +38,16 @@ header {
   height: 90px;
 
   @media screen and (max-width: 1200px) {
-    padding: 0 80px;
+    padding: 0 120px;
   }
 
-  @media screen and (max-width: 1024px) {
-    padding: 0 30px;
+  @media screen and (max-width: 992px) {
+    padding: 0 80px;
   }
 
   @media screen and (max-width: 600px) {
     display: none;
+    padding: 0 30px;
   }
 }
 
@@ -60,16 +57,7 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #828282;
-
-  //@media screen and (max-width: 1200px) {
-  //  padding: 0 80px;
-  //}
-  //
-  //@media screen and (max-width: 1024px) {
-  //  padding: 0 30px;
-  //}
 }
-
 
 header a {
   text-decoration: none;
@@ -80,21 +68,28 @@ header a:hover {
   color: #070707;
 }
 
+
 /*SECTION 1 Home*/
 .little-portrait {
   display: none;
 
   @media screen and (max-width: 600px) {
-    display: block;
+    display: flex;
+    justify-content: left;
+  }
+}
+
+.little-portrait img {
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    object-fit: contain;
   }
 }
 
 .flex-container {
   display: flex;
   justify-content: space-between;
-  //align-items: center;
 }
-
 
 .white-section {
   padding: 0 250px;
@@ -102,10 +97,14 @@ header a:hover {
   max-width: 1440px;
 
   @media screen and (max-width: 1200px) {
+    padding: 0 120px;
+  }
+
+  @media screen and (max-width: 992px) {
     padding: 0 80px;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 600px) {
     padding: 0 30px;
   }
 }
@@ -113,12 +112,21 @@ header a:hover {
 .home-section {
   padding-top: 40px;
   padding-bottom: 105px;
+
+  @media screen and (max-width: 600px) {
+    padding-top: 65px;
+    padding-bottom: 83px;
+  }
 }
 
 h1 {
-  font-size: 48px;
-  line-height: 60px;
+  font-size: 47px;
+  line-height: 58px;
   text-align: left;
+
+  @media screen and (max-width: 600px) {
+    padding-bottom: 23px;
+  }
 }
 
 .main-content-item p {
@@ -126,18 +134,9 @@ h1 {
   padding: 40px 0;
 
   @media screen and (max-width: 600px) {
-    padding: 0;
+    padding: 0 0 37px;
   }
 }
-
-//
-//.main-content-item {
-//  @media screen and (max-width: 600px) {
-//    text-align: left;
-//    align-items: start;
-//    justify-content: left;
-//  }
-//}
 
 .main-content {
   padding-bottom: 30px;
@@ -145,8 +144,11 @@ h1 {
   @media screen and (max-width: 600px) {
     display: flex;
     flex-flow: column;
-    //align-items: flex-start;
     justify-content: left;
+    padding: 0;
+    background: url("../images/burger-menu-icon.svg");
+    background-repeat: no-repeat;
+    background-position: top 0 right 0;
   }
 }
 
@@ -158,10 +160,9 @@ h1 {
 
 .big-portrait img {
   width: 100%;
-  height: 388px;
+  //height: 388px;
   object-fit: contain;
 }
-
 
 .eng-icon-container {
   padding: 25px 0;
@@ -176,25 +177,23 @@ h1 {
   object-fit: contain;
 }
 
-//
-//.big-portrait {
-//  @media screen and (max-width: 1200px) and (min-width: 992px) {
-//    width: 800px;
-//    //height: 347px;
-//    margin: auto;
-//  }
-//}
-
-//.big-portrait img {
-//  @media screen and (max-width: 1200px) and (min-width: 992px) {
-//    width: 100%;
-//    height: 100%;
-//  }
-//}
 
 /*SECTION 2 About me*/
 .gray-section {
   background-color: #F6F6F6;
+
+  @media screen and (max-width: 1200px) {
+    padding: 0 120px;
+  }
+
+  @media screen and (max-width: 992px) {
+    padding: 0 80px;
+  }
+
+  @media screen and (max-width: 600px) {
+    //display: none;
+    padding: 0 30px;
+  }
 }
 
 h2 {
@@ -203,7 +202,7 @@ h2 {
   padding-top: 100px;
 
   @media screen and (max-width: 600px) {
-    padding-top: 80px;
+    padding-top: 82px;
   }
 }
 
@@ -215,12 +214,20 @@ h2 {
 
   @media screen and (max-width: 600px) {
     width: 100%;
-    padding: 0 30px;
+    //padding: 0 30px;
     margin: 30px 0 76px;
   }
 }
 
+
 /*SECTION 3 Skills*/
+.section-skills {
+  padding-bottom: 110px;
+
+  @media screen and (max-width: 600px) {
+    padding-bottom: 100px;
+  }
+}
 
 .section-skills p {
   padding: 70px 0 85px;
@@ -234,12 +241,10 @@ h2 {
   width: 165px;
   height: 205px;
 
-
-  @media screen and (max-width: 1024px) {
-    padding-bottom: 80px;
+  @media screen and (max-width: 992px) {
+    margin-bottom: 80px;
   }
 }
-
 
 .visual-editor-icon {
   width: 90px;
@@ -251,34 +256,30 @@ h3 {
   font-size: 14px;
   line-height: 17px;
   width: 80px;
+  padding: 24px 0 40px;
 }
 
 .card-container {
-  padding-bottom: 110px;
-
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 992px) {
     width: 50%;
     flex-wrap: wrap;
-    //justify-content: center;
     margin: 0 auto;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 50%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
   }
 }
 
-
 .section-skills {
   justify-content: center;
-
 }
 
 
 /*SECTION 4 Portfolio */
-img + a {
-  padding-bottom: 55px;
-  @media screen and (max-width: 600px) {
-    padding-bottom: 7px;
-  }
-}
-
 .photo {
   padding: 45px 0 45px;
 
@@ -287,28 +288,26 @@ img + a {
   }
 }
 
-
 .portfolio-content-container img {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
 
+img + a {
+  padding-bottom: 55px;
+  @media screen and (max-width: 600px) {
+    padding-bottom: 14px;
+  }
+}
 
-//{
-//  @media screen and (max-width: 1200px) and (min-width: 992px) {
-//    width: 100%;
-//    height: 100%;
-//  }
-//}
-//
-//.portfolio-content-container {
-//  @media screen and (max-width: 1200px) and (min-width: 992px) {
-//    width: 800px;
-//    //height: 347px;
-//    margin: auto;
-//  }
-//}
+.portfolio-content-container {
+  padding-bottom: 41px;
+  @media screen and (max-width: 600px) {
+    padding-bottom: 67px;
+  }
+}
+
 
 /*FOOTER Contacts*/
 footer {
@@ -317,15 +316,15 @@ footer {
   max-width: 1440px;
 
   @media screen and (max-width: 1200px) {
-    padding: 0 80px 115px;
+    padding: 0 120px 115px;
   }
 
-  @media screen and (max-width: 1024px) {
-    padding: 0 50px 100px 50px;
+  @media screen and (max-width: 992px) {
+    padding: 0 80px 100px;
   }
 
   @media screen and (max-width: 600px) {
-    padding: 0 30px 90px 30px;
+    padding: 0 30px 90px;
   }
 }
 
@@ -338,26 +337,29 @@ footer {
 
 .contacts-content-container {
   width: 345px;
-  //height: 340px;
 
   @media screen and (max-width: 600px) {
     width: 100%;
     height: 100%;
   }
-
 }
 
 footer h2 + p {
-  margin: 20px 0 30px;
+  padding: 20px 0 30px;
+
+  @media screen and (max-width: 600px) {
+    padding: 27px 0 40px;
+  }
 }
 
 .socialmedia-card {
   width: 345px;
-  margin-top: 45px;
+  padding-top: 45px;
 
   @media screen and (max-width: 600px) {
     width: 100%;
     height: 100%;
+    padding-top: 60px;
   }
 }
 
@@ -369,6 +371,10 @@ button {
   background-color: #070707;
   border-radius: 25px;
   border: 1px solid #070707;
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
 }
 
 button:hover {
@@ -380,4 +386,15 @@ button:hover {
   font-size: 14px;
   line-height: 17px;
   color: #828282;
+  padding-top: 45px;
+
+  @media screen and (max-width: 992px) {
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 600px) {
+    //margin-top: 48px;
+    padding-top: 48px;
+    font-size: 18px;
+  }
 }
