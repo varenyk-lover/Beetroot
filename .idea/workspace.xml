@@ -1,12 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="">
+    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="lesson 11 - final commit">
+      <change afterPath="$PROJECT_DIR$/lesson-12/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/.idea/lesson-11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/fonts/gilroy-bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/fonts/gilroy-medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/images/3-stars.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/images/4-stars.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/images/aftereffects-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/images/behance-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/images/braun-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/images/burger-menu-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/images/dribble-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/images/fashion-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/images/figma-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/images/illustrator-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/images/insta-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/images/linkedin-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/images/photoshop-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/images/portrait-mini.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/images/portrait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/images/reebok-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/images/ru-eng-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/styles/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/styles/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-11/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-11/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-11/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-11/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-11/styles/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-11/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-11/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,21 +67,21 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/hanna/Documents/IT/Beetroot-hometasks&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/hanna/Documents/IT/Beetroot-hometasks",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lesson-7/pages" />
@@ -105,7 +131,9 @@
       <workItem from="1652371850069" duration="658000" />
       <workItem from="1652514904959" duration="2847000" />
       <workItem from="1652693643147" duration="19722000" />
-      <workItem from="1652777595953" duration="9121000" />
+      <workItem from="1652777595953" duration="9181000" />
+      <workItem from="1652793944370" duration="637000" />
+      <workItem from="1652869168299" duration="841000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>
@@ -282,14 +310,20 @@
       <option name="project" value="LOCAL" />
       <updated>1652354263142</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="lesson 11 - final commit">
+      <created>1652793775179</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1652793775179</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added lesson 4" />
     <MESSAGE value="changed lesson 4" />
     <MESSAGE value="added lesson 5" />
     <MESSAGE value="added  link on lesson 5" />
@@ -314,7 +348,8 @@
     <MESSAGE value="added lesson 9 Denis website" />
     <MESSAGE value="lesson 10 - init commit" />
     <MESSAGE value="lesson 10 - final commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 10 - final commit" />
+    <MESSAGE value="lesson 11 - final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 11 - final commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
