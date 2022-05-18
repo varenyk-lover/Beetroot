@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson-10/assets/images/logo-icon.png" afterDir="false" />
+    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="lesson 12 - hided hover styles for mobile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/application-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/application-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/dribble-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/dribble-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/fb-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/fb-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/freehand-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/freehand-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/github-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/github-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/insta-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/insta-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/logo-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/loudspeaker-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/loudspeaker-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/images/twitter-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/images/twitter-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/assets/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/assets/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-10/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-12/images/burger-menu-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/images/burger-menu-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-12/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-12/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-12/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/styles/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-12/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/styles/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +20,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -49,21 +43,21 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/hanna/Documents/IT/Beetroot-hometasks&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/hanna/Documents/IT/index copy.scss",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lesson-7/pages" />
@@ -109,7 +103,21 @@
       <workItem from="1652175475428" duration="17889000" />
       <workItem from="1652198716218" duration="4000" />
       <workItem from="1652201754785" duration="119000" />
-      <workItem from="1652203153200" duration="26128000" />
+      <workItem from="1652203153200" duration="26182000" />
+      <workItem from="1652371850069" duration="658000" />
+      <workItem from="1652514904959" duration="2847000" />
+      <workItem from="1652693643147" duration="19722000" />
+      <workItem from="1652777595953" duration="9181000" />
+      <workItem from="1652793944370" duration="637000" />
+      <workItem from="1652869168299" duration="1284000" />
+      <workItem from="1652870792063" duration="18000" />
+      <workItem from="1652870939446" duration="12000" />
+      <workItem from="1652871464980" duration="34000" />
+      <workItem from="1652871548336" duration="193000" />
+      <workItem from="1652871758702" duration="564000" />
+      <workItem from="1652872329484" duration="573000" />
+      <workItem from="1652873808990" duration="2796000" />
+      <workItem from="1652884202631" duration="1365000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>
@@ -279,16 +287,34 @@
       <option name="project" value="LOCAL" />
       <updated>1652290898427</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="lesson 10 - final commit">
+      <created>1652354263142</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1652354263142</updated>
+    </task>
+    <task id="LOCAL-00026" summary="lesson 11 - final commit">
+      <created>1652793775179</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1652793775179</updated>
+    </task>
+    <task id="LOCAL-00027" summary="lesson 12 - final commit">
+      <created>1652870217359</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1652870217359</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added lesson 4" />
-    <MESSAGE value="changed lesson 4" />
-    <MESSAGE value="added lesson 5" />
     <MESSAGE value="added  link on lesson 5" />
     <MESSAGE value="added main photo" />
     <MESSAGE value="deleted some elements that doesn`t work" />
@@ -310,7 +336,11 @@
     <MESSAGE value="lesson 9 - final commit" />
     <MESSAGE value="added lesson 9 Denis website" />
     <MESSAGE value="lesson 10 - init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 10 - init commit" />
+    <MESSAGE value="lesson 10 - final commit" />
+    <MESSAGE value="lesson 11 - final commit" />
+    <MESSAGE value="lesson 12 - final commit" />
+    <MESSAGE value="lesson 12 - hided hover styles for mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 12 - hided hover styles for mobile" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

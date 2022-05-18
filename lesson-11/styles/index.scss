@@ -1,0 +1,400 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../fonts/gilroy-bold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/gilroy-medium.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, button, header a {
+  margin: 0;
+  font-family: "Gilroy-Bold", sans-serif;
+}
+
+main, footer {
+  text-align: center;
+}
+
+p, img + a {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  color: #070707;
+}
+
+
+/*HEADER*/
+header {
+  padding: 0 250px;
+  margin: 0 auto;
+  max-width: 1440px;
+  height: 90px;
+
+  @media screen and (max-width: 1200px) {
+    padding: 0 120px;
+  }
+
+  @media screen and (max-width: 992px) {
+    padding: 0 80px;
+  }
+
+  @media screen and (max-width: 600px) {
+    display: none;
+    padding: 0 30px;
+  }
+}
+
+.header-container {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #828282;
+}
+
+header a {
+  text-decoration: none;
+  color: #828282;
+}
+
+header a:hover {
+  color: #070707;
+}
+
+
+/*SECTION 1 Home*/
+.little-portrait {
+  display: none;
+
+  @media screen and (max-width: 600px) {
+    display: flex;
+    justify-content: left;
+  }
+}
+
+.little-portrait img {
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.white-section {
+  padding: 0 250px;
+  margin: 0 auto;
+  max-width: 1440px;
+
+  @media screen and (max-width: 1200px) {
+    padding: 0 120px;
+  }
+
+  @media screen and (max-width: 992px) {
+    padding: 0 80px;
+  }
+
+  @media screen and (max-width: 600px) {
+    padding: 0 30px;
+  }
+}
+
+.home-section {
+  padding-top: 40px;
+  padding-bottom: 105px;
+
+  @media screen and (max-width: 600px) {
+    padding-top: 65px;
+    padding-bottom: 83px;
+  }
+}
+
+h1 {
+  font-size: 47px;
+  line-height: 58px;
+  text-align: left;
+
+  @media screen and (max-width: 600px) {
+    padding-bottom: 23px;
+  }
+}
+
+.main-content-item p {
+  text-align: left;
+  padding: 40px 0;
+
+  @media screen and (max-width: 600px) {
+    padding: 0 0 37px;
+  }
+}
+
+.main-content {
+  padding-bottom: 30px;
+
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    padding: 0;
+    background: url("../images/burger-menu-icon.svg");
+    background-repeat: no-repeat;
+    background-position: top 0 right 0;
+  }
+}
+
+.big-portrait {
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+}
+
+.big-portrait img {
+  width: 100%;
+  //height: 388px;
+  object-fit: contain;
+}
+
+.eng-icon-container {
+  padding: 25px 0;
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+}
+
+.portfolio-content-container img {
+  height: 522px;
+  width: 100%;
+  object-fit: contain;
+}
+
+
+/*SECTION 2 About me*/
+.gray-section {
+  background-color: #F6F6F6;
+
+  @media screen and (max-width: 1200px) {
+    padding: 0 120px;
+  }
+
+  @media screen and (max-width: 992px) {
+    padding: 0 80px;
+  }
+
+  @media screen and (max-width: 600px) {
+    //display: none;
+    padding: 0 30px;
+  }
+}
+
+h2 {
+  font-size: 34px;
+  line-height: 42px;
+  padding-top: 100px;
+
+  @media screen and (max-width: 600px) {
+    padding-top: 82px;
+  }
+}
+
+.about-content {
+  width: 485px;
+  height: 220px;
+  flex-flow: column;
+  margin: 18px 0 107px;
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    //padding: 0 30px;
+    margin: 30px 0 76px;
+  }
+}
+
+
+/*SECTION 3 Skills*/
+.section-skills {
+  padding-bottom: 110px;
+
+  @media screen and (max-width: 600px) {
+    padding-bottom: 100px;
+  }
+}
+
+.section-skills p {
+  padding: 70px 0 85px;
+
+  @media screen and (max-width: 600px) {
+    padding: 50px 0 70px;
+  }
+}
+
+.skills-card {
+  width: 165px;
+  height: 205px;
+
+  @media screen and (max-width: 992px) {
+    margin-bottom: 80px;
+  }
+}
+
+.visual-editor-icon {
+  width: 90px;
+  height: 90px;
+}
+
+h3 {
+  color: #828282;
+  font-size: 14px;
+  line-height: 17px;
+  width: 80px;
+  padding: 24px 0 40px;
+}
+
+.card-container {
+  @media screen and (max-width: 992px) {
+    width: 50%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 50%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+}
+
+.section-skills {
+  justify-content: center;
+}
+
+
+/*SECTION 4 Portfolio */
+.photo {
+  padding: 45px 0 45px;
+
+  @media screen and (max-width: 600px) {
+    padding: 64px 0 35px;
+  }
+}
+
+.portfolio-content-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+img + a {
+  padding-bottom: 55px;
+  @media screen and (max-width: 600px) {
+    padding-bottom: 14px;
+  }
+}
+
+.portfolio-content-container {
+  padding-bottom: 41px;
+  @media screen and (max-width: 600px) {
+    padding-bottom: 67px;
+  }
+}
+
+
+/*FOOTER Contacts*/
+footer {
+  padding: 0 250px 123px 250px;
+  margin: 0 auto;
+  max-width: 1440px;
+
+  @media screen and (max-width: 1200px) {
+    padding: 0 120px 115px;
+  }
+
+  @media screen and (max-width: 992px) {
+    padding: 0 80px 100px;
+  }
+
+  @media screen and (max-width: 600px) {
+    padding: 0 30px 90px;
+  }
+}
+
+.flex-column {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contacts-content-container {
+  width: 345px;
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+footer h2 + p {
+  padding: 20px 0 30px;
+
+  @media screen and (max-width: 600px) {
+    padding: 27px 0 40px;
+  }
+}
+
+.socialmedia-card {
+  width: 345px;
+  padding-top: 45px;
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+  }
+}
+
+button {
+  width: 180px;
+  height: 42px;
+  color: #FFFFFF;
+  font-size: 18px;
+  background-color: #070707;
+  border-radius: 25px;
+  border: 1px solid #070707;
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.socialmedia-description {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  padding-top: 45px;
+
+  @media screen and (max-width: 992px) {
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 600px) {
+    //margin-top: 48px;
+    padding-top: 48px;
+    font-size: 18px;
+  }
+}
