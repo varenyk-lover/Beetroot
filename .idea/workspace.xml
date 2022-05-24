@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/lesson-14/assets/images/AC.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-14/assets/images/AD.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-14/assets/images/AH.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-14/assets/images/AS.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-14/assets/images/KC.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-14/assets/images/KD.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-14/assets/images/KH.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-14/assets/images/KS.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-14/assets/images/card-back.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-14/assets/styles/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-14/assets/styles/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-14/assets/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-14/index.html" afterDir="false" />
+    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="init 14">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson-12/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson-12/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson-12/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/styles/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-14/assets/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-14/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-14/assets/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-14/styles/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-14/assets/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-14/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-14/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-14/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +43,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="27yMZSH2tiGrZZ4tJygyFsYg7A1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -72,6 +65,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson-14" />
       <recent name="$PROJECT_DIR$/lesson-7/pages" />
     </key>
   </component>
@@ -142,7 +136,7 @@
       <workItem from="1653126640302" duration="3197000" />
       <workItem from="1653335314594" duration="4072000" />
       <workItem from="1653330564868" duration="1330000" />
-      <workItem from="1653386977743" duration="7814000" />
+      <workItem from="1653386977743" duration="12268000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>
@@ -354,14 +348,20 @@
       <option name="project" value="LOCAL" />
       <updated>1653330847263</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="init 14">
+      <created>1653398976372</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1653398976372</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="deleted some elements that doesn`t work" />
     <MESSAGE value="fixed problems with margin and padding" />
     <MESSAGE value="fixed all" />
     <MESSAGE value="fixed margin" />
@@ -386,7 +386,8 @@
     <MESSAGE value="lesson 12 - hided hover styles for mobile" />
     <MESSAGE value="lesson 13 - test commit" />
     <MESSAGE value="test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+    <MESSAGE value="init 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="init 14" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
