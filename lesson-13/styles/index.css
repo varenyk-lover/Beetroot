@@ -1,0 +1,44 @@
+.grid-item {
+  border: 1px solid #3B3F45;
+}
+
+.grid-container {
+  display: grid;
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-areas: "header header header" "sidebar section section" "footer footer footer";
+  gap: 20px;
+}
+
+.grid-item {
+  border: 1px solid #3B3F45;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header {
+  grid-area: header;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  align-self: start;
+}
+
+.section {
+  grid-area: section;
+  display: grid;
+  gap: 10px;
+  grid-template-rows: 100px 100px;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 1em;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.subgrid-item {
+  border: 1px solid #173a56;
+}
+
+/*# sourceMappingURL=index.css.map */

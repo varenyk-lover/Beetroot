@@ -1,0 +1,38 @@
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 200px 350px 50px;
+  margin: auto;
+  width: 1000px;
+  height: 700px;
+  background-color: #7690A8;
+}
+
+.card-back {
+  width: 209px;
+  height: 303px;
+  background-image: url("../images/card-back.svg");
+}
+
+.flex-container:hover .kc {
+  animation-name: king-clubs;
+  transition-delay: 0.5s;
+  transition-duration: 5s;
+}
+
+@keyframes king-clubs {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(180px);
+    background-image: url("../images/KC.svg");
+    background-size: 209px 303px;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
