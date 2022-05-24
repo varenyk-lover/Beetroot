@@ -14,15 +14,17 @@
   width: 209px;
   height: 303px;
   background-image: url("../images/card-back.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 
 
-.flex-container:hover .kc {
-  animation-name: king-clubs;
+.kc {
+  animation: king-clubs 1.5s infinite 1s;
   //transition: linear 0.5s;
-  transition-delay: 0.5s;
-  transition-duration: 5s;
+  // transition-delay: 0.5s;
+  // transition-duration: 5s;
   //animation-timing-function: ease;
   //transform: rotateY(360deg);
   //background-image: url("../images/KC.svg");
@@ -30,18 +32,41 @@
 
 }
 
-@keyframes king-clubs {
+.kd {
+  animation: king-d 2.5s infinite 2s;
+}
+
+.flex-container:hover .kc, .flex-container:hover .kd {
+  animation-play-state: paused;
+}
+
+@keyframes king-d {
   0% {
-    transform: translateY(0);
+    transform: rotateY(180deg);
   }
 
   50% {
-    transform: translateY(180px);
-    background-image: url("../images/KC.svg");
-    background-size: 209px 303px;
+    transform: rotateY(360deg);
+    background-image: url("../images/KD.svg");
+    // background-size: 209px 303px;
   }
   100% {
-    transform: translateY(0);
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes king-clubs {
+  0% {
+    transform: rotateY(0);
+  }
+
+  50% {
+    transform: rotateY(180deg);
+    background-image: url("../images/KC.svg");
+    // background-size: 209px 303px;
+  }
+  100% {
+    transform: rotateY(0);
   }
   //0% {
   //  transform: rotateY(0deg)
