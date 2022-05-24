@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/lesson-14/assets/images/AC.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-14/assets/images/AD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-14/assets/images/AH.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-14/assets/images/AS.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-14/assets/images/KC.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-14/assets/images/KD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-14/assets/images/KH.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-14/assets/images/KS.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-14/assets/images/card-back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-14/assets/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-14/assets/styles/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-14/assets/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-14/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-12/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson-12/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson-12/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/styles/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-12/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-13/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-13/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-13/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-13/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-13/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-13/styles/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +30,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Sass File" />
         <option value="SCSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -50,11 +61,13 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -128,7 +141,8 @@
       <workItem from="1653072468223" duration="3618000" />
       <workItem from="1653126640302" duration="3197000" />
       <workItem from="1653335314594" duration="4072000" />
-      <workItem from="1653330564868" duration="220000" />
+      <workItem from="1653330564868" duration="1330000" />
+      <workItem from="1653386977743" duration="7814000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>
@@ -333,14 +347,20 @@
       <option name="project" value="LOCAL" />
       <updated>1653330077547</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="test commit">
+      <created>1653330847263</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1653330847263</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added main photo" />
     <MESSAGE value="deleted some elements that doesn`t work" />
     <MESSAGE value="fixed problems with margin and padding" />
     <MESSAGE value="fixed all" />
@@ -365,7 +385,8 @@
     <MESSAGE value="lesson 12 - final commit" />
     <MESSAGE value="lesson 12 - hided hover styles for mobile" />
     <MESSAGE value="lesson 13 - test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 13 - test commit" />
+    <MESSAGE value="test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

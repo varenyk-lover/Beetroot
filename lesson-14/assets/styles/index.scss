@@ -1,0 +1,70 @@
+.flex-container {
+  display: flex;
+  //gap: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 200px 350px 50px;
+  margin: auto;
+  width: 1000px;
+  height: 700px;
+  background-color: #7690A8;
+}
+
+.card-back {
+  width: 209px;
+  height: 303px;
+  background-image: url("../images/card-back.svg");
+}
+
+
+
+.flex-container:hover .kc {
+  animation-name: king-clubs;
+  //transition: linear 0.5s;
+  transition-delay: 0.5s;
+  transition-duration: 5s;
+  //animation-timing-function: ease;
+  //transform: rotateY(360deg);
+  //background-image: url("../images/KC.svg");
+  //background-size: 209px 303px;
+
+}
+
+@keyframes king-clubs {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(180px);
+    background-image: url("../images/KC.svg");
+    background-size: 209px 303px;
+  }
+  100% {
+    transform: translateY(0);
+  }
+  //0% {
+  //  transform: rotateY(0deg)
+  //  //background-image: url("../images/card-back.svg");
+  //}
+  //
+  //25% {
+  //  transform: rotateY(90deg)
+  //;
+  //}
+  //
+  //50% {
+  //  transform: rotateY(180deg);
+  //  background-image: url("../images/KC.svg");
+  //}
+  //
+  //75% {
+  //  transform: rotateY(90deg);
+  //}
+  //
+  //100% {
+  //  transform: rotateY(0deg)
+  //  //background-image: url("../images/card-back.svg");
+  //}
+}
+
