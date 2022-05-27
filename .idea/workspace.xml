@@ -2,14 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="init 14">
+      <change afterPath="$PROJECT_DIR$/exam/assets/images/contact-button-background.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/assets/images/dollar-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/assets/images/features-background-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/assets/images/features-card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/assets/images/first-screen-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/assets/images/first-section-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/assets/images/icon-moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/assets/images/icon-play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/assets/images/join-button-background.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/assets/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/assets/images/number-line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/assets/images/quote-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/assets/images/quote-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/assets/images/review-background-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/assets/images/screensaver-for-video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/assets/images/tablet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/styles/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/styles/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson-12/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson-12/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson-12/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/styles/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-14/assets/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-14/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-14/assets/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-14/styles/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-14/assets/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-14/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-14/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-14/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-14/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-14/styles/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-14/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-14/styles/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +40,8 @@
       <list>
         <option value="CSS File" />
         <option value="Sass File" />
-        <option value="SCSS File" />
         <option value="HTML File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -60,7 +79,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -136,7 +155,9 @@
       <workItem from="1653126640302" duration="3197000" />
       <workItem from="1653335314594" duration="4072000" />
       <workItem from="1653330564868" duration="1330000" />
-      <workItem from="1653386977743" duration="12268000" />
+      <workItem from="1653386977743" duration="12323000" />
+      <workItem from="1653411579673" duration="2072000" />
+      <workItem from="1653573420259" duration="36066000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>
@@ -355,14 +376,22 @@
       <option name="project" value="LOCAL" />
       <updated>1653398976372</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="lesson 14 - final commit">
+      <created>1653404531165</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1653404531165</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed problems with margin and padding" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
     <MESSAGE value="fixed all" />
     <MESSAGE value="fixed margin" />
     <MESSAGE value="new lesson" />
@@ -387,7 +416,8 @@
     <MESSAGE value="lesson 13 - test commit" />
     <MESSAGE value="test commit" />
     <MESSAGE value="init 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="init 14" />
+    <MESSAGE value="lesson 14 - final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 14 - final commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
