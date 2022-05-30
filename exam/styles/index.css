@@ -192,6 +192,7 @@ h2 {
 
 .benefits-section {
   padding: 0 64px;
+  margin: 0 auto;
 }
 
 .benefit-flex-item {
@@ -208,7 +209,13 @@ h3 {
 
 .benefits-content {
   flex-wrap: wrap;
-  margin: 0 33px 4px 33px;
+  padding: 0 33px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1600px) {
+  .benefits-content {
+    width: 75%;
+  }
 }
 
 .benefit-flex-item p {
@@ -216,6 +223,7 @@ h3 {
 }
 
 .blockquote-container {
+  max-width: 1152px;
   position: relative;
   max-height: 400px;
   background: url("../assets/images/quote-background.png") no-repeat;
@@ -253,11 +261,17 @@ blockquote + p {
 }
 
 .api-section {
-  padding: 120px 188px;
+  padding: 120px 126px;
+}
+
+.api-section-container {
+  padding: 0 64px;
 }
 
 .mockup-tablet-container {
   position: relative;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .icon-play {
@@ -271,6 +285,8 @@ blockquote + p {
 }
 
 .api-content-container {
+  max-width: 900px;
+  margin: 0 auto;
   padding: 55px 60px 0 3px;
 }
 
@@ -320,7 +336,7 @@ h4 {
   height: 94px;
   border: 1px solid #E4E4E4;
   padding: 35px 100px;
-  margin-top: 22px;
+  margin: 22px 12px 0 0;
 }
 
 .join-button-container button {
@@ -394,8 +410,8 @@ footer {
 }
 
 .footer-container {
-  max-width: 1152px;
   height: 72px;
+  margin: 0 auto;
   align-items: center;
   border-top: 1px solid #E4E4E4;
 }
