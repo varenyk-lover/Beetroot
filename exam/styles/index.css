@@ -331,6 +331,63 @@ h4 {
   left: 0;
 }
 
+.client-reviews-section {
+  margin: 0 auto;
+  padding: 0 0 196px 64px;
+}
+
+.leftside-review-content {
+  max-width: 330px;
+}
+
+.slider-nav {
+  padding-top: 139px;
+}
+
+.arrow-inactive {
+  padding: 0 32px 0 157px;
+}
+
+.contact-section {
+  margin: 0 auto;
+  padding: 0 64px 130px 64px;
+}
+
+.contacts-content-container {
+  padding-top: 120px;
+  border-top: 1px solid #E4E4E4;
+}
+
+.leftside-contact-content {
+  padding-right: 174px;
+}
+
+.rightside-contact-content {
+  max-width: 468px;
+}
+
+.input-field, .textarea {
+  width: 100%;
+  min-height: 32px;
+  margin-bottom: 40px;
+  border-style: none;
+  border-bottom: 1px solid rgba(38, 42, 63, 0.1);
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 20px;
+  opacity: 0.5;
+}
+
+.submit-button {
+  width: 170px;
+  height: 24px;
+  background: url("../assets/images/submit-button-background.svg") no-repeat bottom 0 right 0;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+
 footer {
   padding: 0 64px;
   margin: 0 auto;
