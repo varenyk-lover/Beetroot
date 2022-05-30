@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="exam - init commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/exam/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/exam/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/exam/styles/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/exam/styles/index.scss" afterDir="false" />
@@ -145,7 +144,7 @@
       <workItem from="1653573420259" duration="37074000" />
       <workItem from="1653815795229" duration="7485000" />
       <workItem from="1653921048194" duration="1647000" />
-      <workItem from="1653924070556" duration="2526000" />
+      <workItem from="1653924070556" duration="3902000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>
@@ -385,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653922677076</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="exam - final commit">
+      <created>1653926783926</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1653926783926</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +400,6 @@
   <component name="VcsManagerConfiguration">
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
-    <MESSAGE value="new lesson" />
     <MESSAGE value="center checkbox - shopping list" />
     <MESSAGE value="lesson 7 - first commit" />
     <MESSAGE value="lesson 7 - added photos" />
@@ -419,7 +424,8 @@
     <MESSAGE value="lesson 14 - final commit" />
     <MESSAGE value="exam - init commit" />
     <MESSAGE value="exam - last commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="exam - last commit" />
+    <MESSAGE value="exam - final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="exam - final commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
