@@ -1,7 +1,7 @@
 // Тобі потрібно зберігати ім’я та прізвище в змінній, придумай до 4-х імен змінних
 // let name = 'Hanna Horbova';
 // let fullName = 'Hanna Horbova';
-let yourName = 'Hanna Horbova';
+// let yourName = 'Hanna Horbova';
 // let firstName = 'Hanna';
 // let lastName = 'Horbova';
 
