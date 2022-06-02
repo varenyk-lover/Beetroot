@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="exam - init commit">
+    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment=" test commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-12/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-12/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-12/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/styles/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-13/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-13/styles/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-13/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-13/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-14/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-14/styles/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-14/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-14/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-15/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-15/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-15/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-15/scripts/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +137,7 @@
       <workItem from="1653924070556" duration="4571000" />
       <workItem from="1654096329405" duration="236000" />
       <workItem from="1654096848405" duration="4140000" />
+      <workItem from="1654101137723" duration="7420000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>
@@ -402,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654100905760</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary=" test commit">
+      <created>1654101190608</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1654101190608</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +414,6 @@
   <component name="VcsManagerConfiguration">
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
-    <MESSAGE value="lesson 7 - added photos" />
     <MESSAGE value="lesson 7 - new changes" />
     <MESSAGE value="lesson 7 - 2nd changes" />
     <MESSAGE value="lesson 7 - 3nd changes" />
@@ -436,7 +438,8 @@
     <MESSAGE value="exam - final commit" />
     <MESSAGE value="exam - final final commit:)" />
     <MESSAGE value="leeson 15 - init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="leeson 15 - init commit" />
+    <MESSAGE value=" test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value=" test commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
