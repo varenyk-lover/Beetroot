@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment=" test commit">
+      <change afterPath="$PROJECT_DIR$/lesson-16/images/chocolate-bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-16/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-16/scripts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-15/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-15/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-15/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-15/scripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +140,7 @@
       <workItem from="1654096329405" duration="236000" />
       <workItem from="1654096848405" duration="4140000" />
       <workItem from="1654101137723" duration="7420000" />
+      <workItem from="1654247837329" duration="14801000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>
