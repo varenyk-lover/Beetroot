@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="lesson 16 - final commit">
+    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="lesson 16 - new commit">
+      <change afterPath="$PROJECT_DIR$/lesson-19/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-19/scripts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson-16/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-16/scripts/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,11 +58,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lesson-14" />
       <recent name="$PROJECT_DIR$/lesson-7/pages" />
     </key>
@@ -138,7 +145,8 @@
       <workItem from="1654096848405" duration="4140000" />
       <workItem from="1654101137723" duration="7420000" />
       <workItem from="1654247837329" duration="19397000" />
-      <workItem from="1654340077009" duration="190000" />
+      <workItem from="1654340077009" duration="238000" />
+      <workItem from="1654778763647" duration="17428000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>
@@ -413,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654268553439</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="lesson 16 - new commit">
+      <created>1654340305700</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1654340305700</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +437,6 @@
   <component name="VcsManagerConfiguration">
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
-    <MESSAGE value="lesson 7 - 2nd changes" />
     <MESSAGE value="lesson 7 - 3nd changes" />
     <MESSAGE value="lesson 7 - no underline &lt;a&gt; in 2nd page" />
     <MESSAGE value="lesson 8 - first commit" />
@@ -447,7 +461,8 @@
     <MESSAGE value="leeson 15 - init commit" />
     <MESSAGE value=" test commit" />
     <MESSAGE value="lesson 16 - final commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 16 - final commit" />
+    <MESSAGE value="lesson 16 - new commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 16 - new commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
