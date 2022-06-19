@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="lesson 17 - last commit">
-      <change afterPath="$PROJECT_DIR$/lesson-17-loops/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-17-loops/scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-18-functions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-18-functions/scripts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-19/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-19/scripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-19/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-19-objects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-19/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-19-objects/scripts/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +150,8 @@
       <workItem from="1654778763647" duration="17462000" />
       <workItem from="1655309274054" duration="10000" />
       <workItem from="1655310496173" duration="36162000" />
-      <workItem from="1655644067091" duration="252000" />
+      <workItem from="1655644067091" duration="905000" />
+      <workItem from="1655656909733" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>
@@ -444,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655388456106</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="lesson 17 - last commit">
+      <created>1655644369134</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1655644369134</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +463,6 @@
   <component name="VcsManagerConfiguration">
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
-    <MESSAGE value="lesson 8 - first commit" />
     <MESSAGE value="lesson 8 - almost done commit" />
     <MESSAGE value="lesson 8 - custom list items" />
     <MESSAGE value="lesson 9 - first commit" />
@@ -478,7 +487,8 @@
     <MESSAGE value="lesson 16 - new commit" />
     <MESSAGE value="lesson 19 - init commit" />
     <MESSAGE value="lesson 12 - bug fix of mob burger menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 12 - bug fix of mob burger menu" />
+    <MESSAGE value="lesson 17 - last commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 17 - last commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
