@@ -51,7 +51,6 @@ const car = {
    /* timeofRoad: function() {
         let distance = 200;
     return distance * this.averageSpeed;??????*/
-}
 };
 console.log(car);
 
