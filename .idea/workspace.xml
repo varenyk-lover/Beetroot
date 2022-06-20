@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="fixed path to files">
-      <change afterPath="$PROJECT_DIR$/lesson-18-functions/scripts/checkNumbers.js" afterDir="false" />
+    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="lesson 18 - final commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-18-functions/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-18-functions/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-18-functions/scripts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-15/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-15/scripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-19-objects/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-19-objects/scripts/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +41,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="27yMZSH2tiGrZZ4tJygyFsYg7A1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -155,7 +151,7 @@
       <workItem from="1655656909733" duration="1527000" />
       <workItem from="1655659168040" duration="3203000" />
       <workItem from="1655663254851" duration="147000" />
-      <workItem from="1655663694707" duration="14526000" />
+      <workItem from="1655663694707" duration="25737000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>
@@ -472,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655718575214</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="lesson 18 - final commit">
+      <created>1655731069408</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1655731069408</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,7 +484,6 @@
   <component name="VcsManagerConfiguration">
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
-    <MESSAGE value="lesson 9 - first commit" />
     <MESSAGE value="lesson 9 - final commit" />
     <MESSAGE value="added lesson 9 Denis website" />
     <MESSAGE value="lesson 10 - init commit" />
@@ -506,7 +508,8 @@
     <MESSAGE value="lesson 17 - last commit" />
     <MESSAGE value="fixed path to files" />
     <MESSAGE value="lesson 17 - fixed problem with input" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 17 - fixed problem with input" />
+    <MESSAGE value="lesson 18 - final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 18 - final commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
