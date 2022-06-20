@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="lesson 17 - last commit">
-      <change afterPath="$PROJECT_DIR$/lesson-18-functions/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-18-functions/scripts/index.js" afterDir="false" />
+    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="fixed path to files">
+      <change afterPath="$PROJECT_DIR$/lesson-18-functions/scripts/checkNumbers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-19/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-19-objects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-19/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-19-objects/scripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-17-loops/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-17-loops/scripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-18-functions/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-18-functions/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-18-functions/scripts/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="27yMZSH2tiGrZZ4tJygyFsYg7A1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -57,7 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Beetroot-tests" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -151,7 +153,10 @@
       <workItem from="1655309274054" duration="10000" />
       <workItem from="1655310496173" duration="36162000" />
       <workItem from="1655644067091" duration="905000" />
-      <workItem from="1655656909733" duration="312000" />
+      <workItem from="1655656909733" duration="1527000" />
+      <workItem from="1655659168040" duration="3203000" />
+      <workItem from="1655663254851" duration="147000" />
+      <workItem from="1655663694707" duration="8162000" />
     </task>
     <task id="LOCAL-00001" summary="added lesson 4">
       <created>1650639250369</created>
@@ -454,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655644369134</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="fixed path to files">
+      <created>1655657303506</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1655657303506</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,7 +475,6 @@
   <component name="VcsManagerConfiguration">
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
-    <MESSAGE value="lesson 8 - almost done commit" />
     <MESSAGE value="lesson 8 - custom list items" />
     <MESSAGE value="lesson 9 - first commit" />
     <MESSAGE value="lesson 9 - final commit" />
@@ -488,7 +499,8 @@
     <MESSAGE value="lesson 19 - init commit" />
     <MESSAGE value="lesson 12 - bug fix of mob burger menu" />
     <MESSAGE value="lesson 17 - last commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 17 - last commit" />
+    <MESSAGE value="fixed path to files" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed path to files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
