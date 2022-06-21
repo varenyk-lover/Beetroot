@@ -11,6 +11,9 @@
     return a + b
 };*/
 
+//arrow function
+/*let sum = (a, b) => a + b;*/
+
 //     Створи функцію, яка буде виводити кількість переданих їй аргументів.
 //Я бачила такий варіант:
 /*function amountOfArguments() {
