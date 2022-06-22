@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="lesson 19 - minimum commit">
-      <change afterPath="$PROJECT_DIR$/lesson-20-arrays/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-20-arrays/scripts/index.js" afterDir="false" />
+    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="lesson 20 - test commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-20-arrays/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-20-arrays/scripts/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,14 +150,7 @@
       <workItem from="1655656909733" duration="1527000" />
       <workItem from="1655659168040" duration="3203000" />
       <workItem from="1655663254851" duration="147000" />
-      <workItem from="1655663694707" duration="42378000" />
-    </task>
-    <task id="LOCAL-00001" summary="added lesson 4">
-      <created>1650639250369</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1650639250369</updated>
+      <workItem from="1655663694707" duration="47366000" />
     </task>
     <task id="LOCAL-00002" summary="changed lesson 4">
       <created>1650696961175</created>
@@ -496,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655814056287</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="lesson 20 - test commit">
+      <created>1655907096029</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1655907096030</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,7 +504,6 @@
   <component name="VcsManagerConfiguration">
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
-    <MESSAGE value="lesson 10 - final commit" />
     <MESSAGE value="lesson 11 - final commit" />
     <MESSAGE value="lesson 12 - final commit" />
     <MESSAGE value="lesson 12 - hided hover styles for mobile" />
@@ -530,7 +528,8 @@
     <MESSAGE value="lesson 19 - minimum commit" />
     <MESSAGE value="lesson 18 - upd 1 task" />
     <MESSAGE value="lesson 18 - upd new path" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 18 - upd new path" />
+    <MESSAGE value="lesson 20 - test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 20 - test commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

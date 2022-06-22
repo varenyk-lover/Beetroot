@@ -1,7 +1,7 @@
     // Мінімум
 
 /*Створи масив «Список покупок». Кожен елемент масиву є об'єктом, який містить назву продукту, кількість і куплений
- він чи ні, ціну за одиницю товару, сума. Написати кілька функці й для роботи з таким масивом:*/
+ він чи ні, ціну за одиницю товару, сума. */
     const productList = [
         {
             productName: 'apple',
@@ -54,15 +54,15 @@
 
 console.log(productList);
 
-
+//Написати кілька функцій для роботи з цим масивом:
 /*Виводити весь список на екран таким чином, щоб спочатку йшли продукти, що ще не придбані,
-а потім - ті, що вже придбали.*/
-    const notPurchasedProducts = productList.filter(function (item, index, array) {
+а потім - ті, що вже придбали. Це метод filter*/
+    const notPurchasedProducts = productList.filter(function (item) {
         return item.buyStatus === 'notPurchased';
     });
     console.log(notPurchasedProducts);
 
-    const purchasedProducts = productList.filter(function (item, index, array) {
+    const purchasedProducts = productList.filter(function (item) {
         return item.buyStatus === 'purchased';
     });
     console.log(purchasedProducts);
@@ -78,9 +78,9 @@ console.log(productList);
                 return {
                     /*  Якщо item.buyStatus = 'purchased'; тут є нюанс: ми змінюємо поле об‘єкта, а об’єкт веде на одне
             і теж посилання. Тобто масив повертається новий, але його елементи - об’єкти, теж мають свої посилання.
-            ми не не копіюємо його, а просто присвоюєм ключу інше значення. Тому тут масиви мають різне посилання,
-            а об’єкти те ж саме, і тому так змінюється вихідний список, а нам так не підходить.
-            Тому  треба отак:*/
+            А ми не не копіюємо об'єкт ще, а просто присвоюєм ключу інше значення. Тому тут масиви мають різне посилання,
+            а об’єкти  - те ж саме. Так змінюється вихідний список, а нам так не підходить, треба копія і зміни в ній.
+            Тому  треба отак: спершу копія айтему об'єкта, а потім вже зміни вносити*/
                     ...item,
                     buyStatus: 'purchased'
                 };
@@ -95,29 +95,28 @@ console.log(productList);
 
     // Норма
 /*Видалення продукту зі списку (видалення повинно проводитися шляхом створення нового масиву,
-в якому продукт, що ми шукаємо, буде відсутнім)*/
-
+в якому продукт, що ми шукаємо, буде відсутнім).
+Метод фільтр створить нам новий масив*/
     const deleteProduct = (nameOfProduct) => {
-        return productList.filter((item) => item.productName !== nameOfProduct);
+        return productList.filter((item) =>
+            item.productName !== nameOfProduct);
     };
     console.log(deleteProduct('apple'));
+
 /*Додавання покупки в список. Враховуй, що при додаванні покупки з уже існуючим в списку продуктом, необхідно
 збільшувати кількість в існуючій покупці, а не додавати нову. При цьому також повинна змінитися сума, наприклад,
-якщо ціна за одиницю 12, а кількості товарів стало 2, то сума буде 24.*/
+якщо ціна за одиницю 12, а кількості товарів стало 2, то сума буде 24.
+Тут ми вже не можемо створити новий масив і по ньому пройтись, тому проходимось по вихідному*/
     let anotherProductsList;
     const addingProduct = (productsName) => {
         anotherProductsList = productList.map((item) => {
             if (productsName === item.productName) {
-                return {
-                    item.amount++
-                  /*  ...item,
-                    amount++*/
-                };
+                item.amount++;
             }
             return item;
         });
 
-        const newProduct = products.find((item) => item.productName === productsName);
+        const newProduct = productList.find((item) => item.productName === productsName);
 
         if (!newProduct) {
             anotherProductsList.push({
@@ -125,7 +124,7 @@ console.log(productList);
                 amount: 1,
                 buyStatus: 'purchased',
                 price: 90,
-                get   sum() {
+                get sum() {
                     return this.price * this.amount;
                 },
             });
@@ -133,12 +132,45 @@ console.log(productList);
         return anotherProductsList;
     };
 
-    console.log(addingProduct('egg'));
+    console.log(addingProduct('apple'));
 
 
 
     // Максимум
-    /*Підрахунок суми всіх продуктів (враховуючи кількість кожного) в списку.*/
- /*   Підрахунок суми всіх (не) придбаних продуктів.*/
+    /*Підрахунок суми всіх продуктів (враховуючи кількість кожного) в списку.
+    * Метод reduce може просумувати значення в масиві. Нам треба лише достукатись до значення(об.), а потім до ключа.
+    * Бо тут у нас сума в об'єкті, якій в масиві.*/
+    //Можна позначати так перше значення, до якого буде все додаватись.
+    const initialValue = 0;
+    const sumTotal = productList.reduce(
+        (previousValue, item) => previousValue + item.sum,
+        initialValue
+    );
+
+    console.log(sumTotal);
+
+ /*   Підрахунок суми всіх не придбаних продуктів.*/
+    const sumNotPurchasedTotal = notPurchasedProducts.reduce(
+        (previousValue, item) => previousValue + item.sum,
+        0
+    //    А можна в кінці ставити значення, до якого все буде додаватись. У нас це нуль.
+    );
+
+    console.log(sumNotPurchasedTotal);
+
     /*Показання продуктів в залежності від суми, (від більшого до меншого / від меншого до більшого,
-    в залежності від параметра функції, який вона приймає)*/
+    в залежності від параметра функції, який вона приймає)
+    Відсортує вихідний оригінальний список, а не створить новий масив!*/
+
+    function sortProductsSum(parametr) {
+        if (parametr === 'minToMax') {
+            return productList.sort((a, b) => a.sum - b.sum);
+        }
+        if (parametr === 'maxToMin') {
+            return productList.sort((a, b) => b.sum - a.sum);
+        }
+    }
+
+    // sortProductsSum('minToMax')
+    //or
+    sortProductsSum('maxToMin')
