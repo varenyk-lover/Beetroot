@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="lesson 24 - custom swipers task">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-22-DOM/task1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-22-DOM/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-22-DOM/task2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-22-DOM/pages/task2/page2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-22-DOM/task2/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-22-DOM/pages/task2/scripts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-22-DOM/task2/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-22-DOM/pages/task2/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-22-DOM/task2/style/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-22-DOM/pages/task2/style/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-22-DOM/task2/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-22-DOM/pages/task2/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-22-DOM/task3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-22-DOM/pages/task3/page3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-22-DOM/task3/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-22-DOM/pages/task3/scripts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-22-DOM/task3/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-22-DOM/pages/task3/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-22-DOM/task3/style/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-22-DOM/pages/task3/style/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-22-DOM/task3/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-22-DOM/pages/task3/style/index.scss" afterDir="false" />
-    </list>
+    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="lesson 22 DOM - upd" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,14 +153,7 @@
       <workItem from="1655656909733" duration="1527000" />
       <workItem from="1655659168040" duration="3203000" />
       <workItem from="1655663254851" duration="147000" />
-      <workItem from="1655663694707" duration="107834000" />
-    </task>
-    <task id="LOCAL-00008" summary="fixed all">
-      <created>1650987708411</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1650987708411</updated>
+      <workItem from="1655663694707" duration="108151000" />
     </task>
     <task id="LOCAL-00009" summary="fixed margin">
       <created>1650987850993</created>
@@ -511,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656687553662</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="lesson 22 DOM - upd">
+      <created>1656688759735</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1656688759735</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +507,6 @@
   <component name="VcsManagerConfiguration">
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
-    <MESSAGE value="init 14" />
     <MESSAGE value="lesson 14 - final commit" />
     <MESSAGE value="exam - init commit" />
     <MESSAGE value="exam - last commit" />
@@ -545,7 +531,8 @@
     <MESSAGE value="upd in links" />
     <MESSAGE value="lesson 21 and 22 final commit" />
     <MESSAGE value="lesson 24 - custom swipers task" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 24 - custom swipers task" />
+    <MESSAGE value="lesson 22 DOM - upd" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 22 DOM - upd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
