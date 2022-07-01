@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="upd in links">
-      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task1/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task2/scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task2/style/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task2/style/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task2/style/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task3/scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task3/style/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task3/style/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task3/style/index.scss" afterDir="false" />
+    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="lesson 21 and 22 final commit">
+      <change afterPath="$PROJECT_DIR$/lesson-24-swipers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-24-swipers/scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-24-swipers/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-24-swipers/styles/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-24-swipers/styles/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -30,9 +23,9 @@
       <list>
         <option value="CSS File" />
         <option value="Sass File" />
+        <option value="SCSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -52,9 +45,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="27yMZSH2tiGrZZ4tJygyFsYg7A1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -171,14 +161,7 @@
       <workItem from="1655656909733" duration="1527000" />
       <workItem from="1655659168040" duration="3203000" />
       <workItem from="1655663254851" duration="147000" />
-      <workItem from="1655663694707" duration="95304000" />
-    </task>
-    <task id="LOCAL-00006" summary="deleted some elements that doesn`t work">
-      <created>1650985547630</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1650985547630</updated>
+      <workItem from="1655663694707" duration="106794000" />
     </task>
     <task id="LOCAL-00007" summary="fixed problems with margin and padding">
       <created>1650987434765</created>
@@ -516,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655992347205</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="lesson 21 and 22 final commit">
+      <created>1656674577842</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1656674577842</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +515,6 @@
   <component name="VcsManagerConfiguration">
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
-    <MESSAGE value="lesson 13 - test commit" />
     <MESSAGE value="test commit" />
     <MESSAGE value="init 14" />
     <MESSAGE value="lesson 14 - final commit" />
@@ -550,7 +539,8 @@
     <MESSAGE value="lesson 20 - final commit" />
     <MESSAGE value="lesson 21 - init commit" />
     <MESSAGE value="upd in links" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd in links" />
+    <MESSAGE value="lesson 21 and 22 final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 21 and 22 final commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
