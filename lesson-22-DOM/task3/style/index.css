@@ -1,0 +1,63 @@
+body, html {
+  background-color: #FFBD00;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  background-color: #030027;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 70px;
+  text-align: center;
+}
+
+button {
+  border-width: 0;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  background-color: #FF5400;
+  box-shadow: 0 0 20px #030027;
+  color: white;
+  border-radius: 55px;
+  border-style: solid;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.traffic-lights-container {
+  width: 300px;
+  height: 600px;
+  border-radius: 50px;
+  background-color: #030027;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.circle-container {
+  width: 170px;
+  height: 165px;
+  background-color: rgb(64, 64, 64);
+  border: 1px solid gray;
+  border-radius: 100%;
+}
+
+#red-light {
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="lesson 21 - init commit">
+    <list default="true" id="9cf4bd80-10d7-4515-b364-a3148244ccb0" name="Changes" comment="upd in links">
+      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task1/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task2/scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task2/style/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task2/style/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task2/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task3/scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task3/style/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task3/style/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-22-DOM/task3/style/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,9 +30,9 @@
       <list>
         <option value="CSS File" />
         <option value="Sass File" />
-        <option value="SCSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -40,6 +53,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="27yMZSH2tiGrZZ4tJygyFsYg7A1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -52,16 +68,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Beetroot-tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson-22/task3/assets" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson-22/task3/assets" />
+      <recent name="$PROJECT_DIR$/lesson-22" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson-22/task2/scripts" />
+      <recent name="$PROJECT_DIR$/lesson-22/task2/style" />
+      <recent name="$PROJECT_DIR$/lesson-22/script1" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lesson-14" />
-      <recent name="$PROJECT_DIR$/lesson-7/pages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -149,14 +171,7 @@
       <workItem from="1655656909733" duration="1527000" />
       <workItem from="1655659168040" duration="3203000" />
       <workItem from="1655663254851" duration="147000" />
-      <workItem from="1655663694707" duration="58399000" />
-    </task>
-    <task id="LOCAL-00005" summary="added main photo">
-      <created>1650985311468</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1650985311468</updated>
+      <workItem from="1655663694707" duration="95304000" />
     </task>
     <task id="LOCAL-00006" summary="deleted some elements that doesn`t work">
       <created>1650985547630</created>
@@ -494,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655992020275</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="upd in links">
+      <created>1655992347204</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1655992347205</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +525,6 @@
   <component name="VcsManagerConfiguration">
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
-    <MESSAGE value="lesson 12 - hided hover styles for mobile" />
     <MESSAGE value="lesson 13 - test commit" />
     <MESSAGE value="test commit" />
     <MESSAGE value="init 14" />
@@ -528,7 +549,20 @@
     <MESSAGE value="lesson 20 - test commit" />
     <MESSAGE value="lesson 20 - final commit" />
     <MESSAGE value="lesson 21 - init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 21 - init commit" />
+    <MESSAGE value="upd in links" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd in links" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lesson-22-DOM/task1/index.js</url>
+          <line>38</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
